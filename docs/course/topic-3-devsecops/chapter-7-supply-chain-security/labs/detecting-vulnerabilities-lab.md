@@ -1,1 +1,0 @@
-detecting vulnerabilities in open source dependencies
