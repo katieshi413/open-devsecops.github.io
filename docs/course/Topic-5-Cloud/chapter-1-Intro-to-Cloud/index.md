@@ -45,6 +45,9 @@ You build apps on top of a managed platform. The provider handles the OS, runtim
 You use the software over the internet without worrying about how it runs.  
 **Examples**: Google Workspace, GitHub
 
+![Cloud Service Models](../../../../images/introtocloudcapstone.png)
+
+
 ---
 
 ## Cloud Deployment Models
