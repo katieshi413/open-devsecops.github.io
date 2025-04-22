@@ -29,6 +29,13 @@ Version control is **a system that records changes to a file or set of files ove
 
 A common tool for version control is GitHub. GitHub allows you acts as a central hub for all of the different versions of your code, kind of how in google docs you can see the history of your changes. Though there are many different systems for version control, we will be learning using GitHubs features. The syntax and user interface of different products are different, but the core elements are the same. 
 
+---
+
+{% include quiz.html
+  id="chapter1"
+  data=site.data.quizzes.chapter1
+%}
+
 ### References 
 <details>
   <summary>Expand</summary>

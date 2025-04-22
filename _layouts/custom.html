@@ -33,5 +33,14 @@
   {% if site.mermaid %}
     {% include components/mermaid.html %}
   {% endif %}
+
+<script>
+  window.quizData = window.quizData || {};
+  window.quizData["chapter1"] = {{ site.data.quizzes.chapter1 | jsonify }};
+</script>
+
+<script src="/assets/js/quiz.js"></script>
+<script src="/assets/js/quiz-reset.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,44 @@
+questions:
+    - prompt: "What is the primary purpose of version control in software development?"
+      options:
+        - "It prevents unauthorized users from editing a file."
+        - "It allows developers to track changes, collaborate, and revert to previous versions of files if necessary."
+        - "It automates the process of building software from source code."
+        - "It helps manage user authentication systems in a project."
+      correct_index: 1
+      explanation: "Version control allows developers to track changes, collaborate, and revert to previous versions of files if necessary. This helps maintain a history of changes and prevents conflicts when working collaboratively."
+      
+    - prompt: "What is one of the key advantages of using version control in the scenario where Armine and Tigran are working on the same project?"
+      options:
+        - "Version control allows them to share the same file without needing to merge their changes."
+        - "It ensures that both of their changes are automatically merged, without requiring them to review the changes."
+        - "It enables them to track their changes independently and merge their updates later, preventing conflicts."
+        - "It prevents them from making any changes to each other's files."
+      correct_index: 2
+      explanation: "Version control enables Armine and Tigran to track their changes independently and merge their updates later, preventing conflicts. This process is essential when multiple developers are working on the same codebase."
+
+    - prompt: "True or False: Version control systems, like GitHub, prevent all types of conflicts between developers working on the same project by automatically merging all changes."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "False. Version control systems help manage changes and alert developers to conflicts, but they do not automatically merge all changes. Developers must manually resolve conflicts."
+
+    - prompt: "Which of the following is NOT true about version control systems?"
+      options:
+        - "They allow developers to view the history of changes made to files and revert to any previous state."
+        - "They can automatically detect and resolve any conflicts between different versions of a file."
+        - "They facilitate collaboration by allowing multiple developers to work on different parts of a project without interfering with each other."
+        - "They store different versions of files, enabling developers to work on multiple features simultaneously."
+      correct_index: 1
+      explanation: "Version control systems help detect conflicts, but they do not automatically resolve them. Developers must review and merge conflicting changes manually."
+
+    - prompt: "Which of the following best describes how GitHub helps in the version control process?"
+      options:
+        - "GitHub is used exclusively for backing up files and does not include version control features."
+        - "GitHub only serves as a cloud-based storage system for completed software projects and does not support versioning."
+        - "GitHub is a platform for organizing and managing tasks related to software development but does not play a role in version control."
+        - "GitHub integrates with version control systems to store files and track changes, while also providing a user interface for collaboration and version history."
+      correct_index: 3
+      explanation: "GitHub is a version control platform that integrates with Git to store files, track changes, and provide collaboration features like issue tracking, pull requests, and version history."
+

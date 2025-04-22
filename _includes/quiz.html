@@ -1,0 +1,29 @@
+<h2 id="quiz-title">🧠 Knowledge Check</h2>
+<p>Answer the questions below to test your knowledge!</p>
+
+<form class="quiz-form" data-quiz-id="{{ include.id }}">
+    {% for q in include.data.questions %}
+    <div class="quiz-question" data-question-index="{{ forloop.index0 }}">
+        <p><strong>Q{{ forloop.index }}:</strong> {{ q.prompt }}</p>
+
+        {% for option in q.options %}
+        <label>
+            <input type="radio" 
+                   name="question-{{ q.prompt | slugify }}" 
+                   value="{{ forloop.index0 }}">
+            {{ option }}
+        </label>
+        {% endfor %}
+
+        <div class="quiz-feedback" style="display:none;"></div>
+    </div>
+    {% endfor %}
+    
+    <!-- <button type="button" onclick="submitQuiz('{{ include.id }}')">Submit</button> -->
+    <button type="button" onclick="submitQuiz('{{ include.id }}')" class="submit-btn">Submit</button>
+    <button type="button" onclick="resetQuiz('{{ include.id }}')" class="try-again-btn" style="display:none;">Try Again</button>
+
+</form>
+
+
+

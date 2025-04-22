@@ -25,3 +25,7 @@ callouts:
   lab:
     title: Access The Lab
     color: purple
+
+sass:
+  sass_dir: _sass
+  style: compressed
