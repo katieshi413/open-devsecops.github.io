@@ -16,17 +16,16 @@ function submitQuiz(quizId) {
 
     const correctIndex = window.quizData[quizId].questions[index].correct_index;
     const explanation = window.quizData[quizId].questions[index].explanation;
-    const link = window.quizData[quizId].questions[index].link;
 
     if (!selected) {
       feedback.innerHTML = `<p style="color:orange;">Please select an answer.</p>`;
       allAnswered = false;
       allCorrect = false;
     } else if (parseInt(selected.value) === correctIndex) {
-      feedback.innerHTML = `<p style="color:green;">Correct! ✅</p><p>${explanation} <a href="${link}">See more</a></p>`;
+      feedback.innerHTML = `<p style="color:green;">Correct! ✅</p><p>${explanation}`;
       feedback.classList.add("correct");
     } else {
-      feedback.innerHTML = `<p style="color:red;">Incorrect ❌</p><p>${explanation} <a href="${link}">Review here</a></p>`;
+      feedback.innerHTML = `<p style="color:red;">Incorrect ❌</p><p>${explanation}`;
       feedback.classList.add("incorrect");
       allCorrect = false;
     }

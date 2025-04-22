@@ -1,0 +1,41 @@
+questions:
+  - prompt: "In Git, all changes in your working directory are committed to the repository when you run <code>git commit</code>, even if they haven't been added to the staging area."
+    options:
+     - "True"
+     - "False"
+    correct_index: 1
+    explanation: "False — Only changes that have been added to the staging area using <code>git add</code> will be included in a commit. Unstaged changes in the working directory are not committed."
+
+  - prompt: "What happens when you run the command <code>git checkout &lt;branch-name&gt;</code>?"
+    options:
+     - "It creates a new branch called <code>&lt;branch-name&gt;</code> but doesn't switch to it."
+     - "It deleted the <code>&lt;branch-name&gt;</code> branch from the respository."
+     - "It uploads your changes to the remote repository."
+     - "It switches your local branch to <code>&lt;branch-name&gt;</code> and updates the working directory with that branch's files."
+    correct_index: 3
+    explanation: "<code>git checkout &lt;branch-name&gt;</code> switches to the specified branch and updates the working directory with that branch's contents."
+
+  - prompt: "In Git, the term _________ refers to a snapshot of your project at a specific point in time, which is stored in the repository after running <code>git commit</code>."
+    options:
+     - "Working Directory"
+     - "Staging Area"
+     - "Commit"
+     - "Branch"
+    correct_index: 2
+    explanation: "A commit in Git represents a snapshot of your project at a specific point in time."
+
+  - prompt: "Which of the following statements is FALSE regarding Git branches?"
+    options:
+      - "A branch in Git does not copy files but simply creates a new pointer to them."
+      - "You can use branches to experiment with new features without affecting the main codebase."
+      - "Once a branch is created, it automatically merges into the <code>main</code> branch after a set period."
+      - "A branch isolates development work, enabling concurrent tasks without conflicts."
+    correct_index: 2
+    explanation: "A branch does NOT automatically merge into the <code>main</code> branch; you have to do it manually using <code>git merge</code>."
+
+  - prompt: "If you delete a branch using <code>git branch -d &lt;branch-name&gt;</code>, the branch is permanently deleted from both your local and remote repositories."
+    options:
+      - "True"
+      - "False"
+    correct_index: 1
+    explanation: "<code>git branch -d</code> only deletes the LOCAL branch. To delete a branch from the remote, you would use <code>git push origin --delete &lt;branch-name&gt;</code>."

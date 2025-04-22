@@ -5,6 +5,8 @@ parent: Topic 2 - Git
 has_children: false
 has_toc: false
 nav_order: 1
+topic: topic2
+chapter: chapter1
 ---
 
 # Chapter 1 - Introduction to Version Control
@@ -32,9 +34,10 @@ A common tool for version control is GitHub. GitHub allows you acts as a central
 ---
 
 {% include quiz.html
-  id="chapter1"
-  data=site.data.quizzes.chapter1
+  id="topic2-chapter1"
+  data=site.data.quizzes.topic2.chapter1
 %}
+
 
 ### References 
 <details>

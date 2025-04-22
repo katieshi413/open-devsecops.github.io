@@ -36,7 +36,11 @@
 
 <script>
   window.quizData = window.quizData || {};
-  window.quizData["chapter1"] = {{ site.data.quizzes.chapter1 | jsonify }};
+  {% if page.topic and page.chapter %}
+    window.quizData["{{ page.topic }}-{{ page.chapter }}"] = {{ site.data.quizzes[page.topic][page.chapter] | jsonify }};
+  {% endif %}
+  // window.quizData["topic2-chapter1"] = {{ site.data.quizzes.topic2.chapter1 | jsonify }};
+  // window.quizData["topic2-chapter2"] = {{ site.data.quizzes.topic2.chapter2 | jsonify }};
 </script>
 
 <script src="/assets/js/quiz.js"></script>

@@ -5,6 +5,8 @@ parent: Topic 2 - Git
 has_toc: false
 has_children: false
 nav_order: 2
+topic: topic2
+chapter: chapter2
 ---
 
 # Git Fundamentals 
@@ -78,6 +80,12 @@ Creating a branch in Git is a fast and simple operation because it doesn't copy 
 
 By using branches, you can manage the development of new features, fixes, and updates in a structured and organized manner, allowing for a smoother and more controlled workflow.
 
+---
+
+{% include quiz.html
+  id="topic2-chapter2"
+  data=site.data.quizzes.topic2.chapter2
+%}
 
 ### References
 <details>
