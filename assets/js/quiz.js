@@ -22,10 +22,10 @@ function submitQuiz(quizId) {
       allAnswered = false;
       allCorrect = false;
     } else if (parseInt(selected.value) === correctIndex) {
-      feedback.innerHTML = `<p style="color:green;">Correct! ✅</p><p>${explanation}`;
+      feedback.innerHTML = `<p id="feedback-title" style="color:green;">Correct! ✅</p><p>${explanation}`;
       feedback.classList.add("correct");
     } else {
-      feedback.innerHTML = `<p style="color:red;">Incorrect ❌</p><p>${explanation}`;
+      feedback.innerHTML = `<p id="feedback-title" style="color:red;">Incorrect ❌</p><p>${explanation}`;
       feedback.classList.add("incorrect");
       allCorrect = false;
     }
