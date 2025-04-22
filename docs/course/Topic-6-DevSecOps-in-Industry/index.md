@@ -5,7 +5,7 @@ has_children: true
 has_toc: false
 nav_order: 7
 ---
-# Topic 5 - Cloud
+# Topic 6 - DevSecOps in Industry
 
 | Chapter | Learning Objectives | Lab Description |
 |---------|---------------------|-----------------|
