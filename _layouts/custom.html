@@ -19,6 +19,12 @@
                     {% include components/children_nav.html %}
                   {% endif %}
                 </main>
+                <!-- Font Size Control Section -->
+                <div id="font-size-controls" style="text-align:center; margin-top: 2rem;">
+                  <button id="btn-increase">A+</button>
+                  <button id="btn-decrease">A-</button>
+                  <button id="btn-reset">Reset</button>
+                </div>
                 {% include components/footer.html %}
               </div>
           </div>
@@ -33,5 +39,48 @@
   {% if site.mermaid %}
     {% include components/mermaid.html %}
   {% endif %}
+  {% include footer_custom.html %}
+
+    <!-- JavaScript for Font Size Control -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const root = document.documentElement; // Targets <html>
+  let defaultSize = parseFloat(getComputedStyle(root).fontSize); // Get initial font size (16px)
+  let currentSize = defaultSize;
+
+  // Get button elements
+  const increaseBtn = document.getElementById("btn-increase");
+  const decreaseBtn = document.getElementById("btn-decrease");
+  const resetBtn = document.getElementById("btn-reset");
+
+  if (increaseBtn && decreaseBtn && resetBtn) {
+    // Increase font size
+    increaseBtn.addEventListener("click", () => {
+      currentSize += 1; // Increase font size by 1px
+      root.style.setProperty('font-size', `${currentSize}px`, 'important'); // Apply with !important
+      console.log(`Font size increased: ${currentSize}px`);
+    });
+
+    // Decrease font size
+    decreaseBtn.addEventListener("click", () => {
+      if (currentSize > 10) {  // Prevent font size from becoming too small
+        currentSize -= 1; // Decrease font size by 1px
+        root.style.setProperty('font-size', `${currentSize}px`, 'important'); // Apply with !important
+        console.log(`Font size decreased: ${currentSize}px`);
+      }
+    });
+
+    // Reset font size
+    resetBtn.addEventListener("click", () => {
+      currentSize = defaultSize; // Reset to the initial font size
+      root.style.setProperty('font-size', `${defaultSize}px`, 'important'); // Apply with !important
+      console.log(`Font size reset: ${defaultSize}px`);
+    });
+  } else {
+    console.error("Font size buttons not found in the DOM.");
+  }
+});
+
+    </script>
 </body>
 </html>

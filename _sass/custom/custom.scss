@@ -19,6 +19,46 @@ $dot-margin: 0;
     --clipboard-checked-color: #43c743;
 }
 
+/* font size slider*/
+/* Font size slider */
+html {
+  font-size: 16px; /* default font-size */
+}
+
+body {
+  font-size: 1rem; /* will scale with html's font-size */
+}
+
+h1 {
+  font-size: 2rem; /* relative to html font-size */
+}
+
+p {
+  font-size: 1rem; /* relative to html font-size */
+}
+
+#font-size-controls {
+  margin-top: 2rem;
+  text-align: center;
+
+  button {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
+
+
+
 
 .highlighter-rouge {
   @include light-syntax;
