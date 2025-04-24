@@ -6,8 +6,6 @@ $code-dot-size: 0.6rem;
 $code-dot-gap: 0.5rem;
 $dot-margin: 0;
 
-@import "quiz";
-
 @mixin light-syntax {
     --language-border-color: #ececec;
     --highlight-bg-color: #f6f8fa;
@@ -20,46 +18,6 @@ $dot-margin: 0;
     --code-header-icon-color: #c9c8c8;
     --clipboard-checked-color: #43c743;
 }
-
-/* font size slider*/
-/* Font size slider */
-html {
-  font-size: 16px; /* default font-size */
-}
-
-body {
-  font-size: 1rem; /* will scale with html's font-size */
-}
-
-h1 {
-  font-size: 2rem; /* relative to html font-size */
-}
-
-p {
-  font-size: 1rem; /* relative to html font-size */
-}
-
-#font-size-controls {
-  margin-top: 2rem;
-  text-align: center;
-
-  button {
-    font-size: 1rem;
-    margin: 0 0.5rem;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #eee;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: #ddd;
-    }
-  }
-}
-
-
 
 
 .highlighter-rouge {
@@ -291,7 +249,6 @@ div.highlighter-rouge > button, div.listingblock > div.content > button, figure.
     padding-top: 64px;
     flex: 1;
     min-width: 300px;
-    background-color: #fbfbfb;
     border-left: 1px solid #eeebee;
 
     h2 {

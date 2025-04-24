@@ -1,3 +1,32 @@
 <footer class="site-footer">
+    <!-- Dark Mode Toggle -->
+    <button class="btn js-toggle-dark-mode" style="font-size: 1.2rem; margin-bottom: 0.5rem;"></button>
+    <br>
     This site uses a custom theme based on <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>.
 </footer>
+
+<script>
+    const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+  
+    // Set button icon based on theme
+    const updateButtonIcon = (theme) => {
+      toggleDarkMode.textContent = theme === 'dark' ? '🌙' : '☀️';
+    };
+  
+    // Load and apply saved theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      jtd.setTheme(savedTheme);
+      updateButtonIcon(savedTheme);
+    }
+  
+    // Toggle and save theme
+    jtd.addEvent(toggleDarkMode, 'click', function () {
+      const currentTheme = jtd.getTheme();
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  
+      jtd.setTheme(newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateButtonIcon(newTheme);
+    });
+  </script>
