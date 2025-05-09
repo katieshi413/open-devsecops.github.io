@@ -1,5 +1,5 @@
 questions:
-  - prompt: "In Git, all changes in your working directory are committed to the repository when you run <code>git commit</code>, even if they haven't been added to the staging area."
+  - prompt: "True or False: In Git, all changes in your working directory are committed to the repository when you run <code>git commit</code>, even if they haven't been added to the staging area."
     options:
      - "True"
      - "False"
@@ -33,9 +33,9 @@ questions:
     correct_index: 2
     explanation: "A branch does NOT automatically merge into the <code>main</code> branch; you have to do it manually using <code>git merge</code>."
 
-  - prompt: "If you delete a branch using <code>git branch -d &lt;branch-name&gt;</code>, the branch is permanently deleted from both your local and remote repositories."
+  - prompt: "True or False: If you delete a branch using <code>git branch -d &lt;branch-name&gt;</code>, the branch is permanently deleted from your local repository."
     options:
       - "True"
       - "False"
-    correct_index: 1
-    explanation: "<code>git branch -d</code> only deletes the LOCAL branch. To delete a branch from the remote, you would use <code>git push origin --delete &lt;branch-name&gt;</code>."
+    correct_index: 0
+    explanation: "True, <code>git branch -d</code> only deletes the LOCAL branch. To delete a branch from the REMOTE, you would use <code>git push origin --delete &lt;branch-name&gt;</code>."
