@@ -6,6 +6,10 @@ $code-dot-size: 0.6rem;
 $code-dot-gap: 0.5rem;
 $dot-margin: 0;
 
+@import "quiz";
+@import "dark";
+@import "light";
+
 @mixin light-syntax {
     --language-border-color: #ececec;
     --highlight-bg-color: #f6f8fa;
@@ -18,7 +22,6 @@ $dot-margin: 0;
     --code-header-icon-color: #c9c8c8;
     --clipboard-checked-color: #43c743;
 }
-
 
 .highlighter-rouge {
   @include light-syntax;
@@ -415,4 +418,17 @@ div.highlighter-rouge > button, div.listingblock > div.content > button, figure.
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+// FONT SIZE ADJUSTER 
+.slider-container {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-text {
+  text-align: center;
+  padding-top: 2rem;
 }
