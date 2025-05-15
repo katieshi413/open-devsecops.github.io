@@ -1,9 +1,43 @@
 questions:
-  prompt: "adsjfa;"
-  options:
-   - "ajlfdsj"
-   - "adfafa"
-   - "asdfodf"
-   - "asdoifa"
-  correct_index: 
-  explanation: 
+  - prompt: "True or False: Cloud computing requires teams to purchase and manage their own physical servers."
+    options:
+      - "True"
+      - "False"
+    correct_index: 1 
+    explanation: "Cloud computing provides on-demand access to resources, removing the need for physical hardware management."
+
+  - prompt: "Which of the following best describes the NIST definition of cloud computing?"
+    options:
+      - "A model for facilitating periodic, physical access to enterprise-owned computing hardware."
+      - "A framework for enabling offline, manual deployment of preconfigured hardware and network resources."
+      - "A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources."
+      - "A method for securing user authentication through identity verification across distributed networks."
+    correct_index: 2
+    explanation: "According to NIST, cloud computing is about network access to shared, configurable computing resources."
+
+  - prompt: "Which cloud service model provides full applications over the internet, abstracting away infrastructure and platforms?"
+    options:
+      - "IaaS"
+      - "Hybrid"
+      - "PaaS"
+      - "SaaS"
+    correct_index: 3 
+    explanation: "SaaS delivers complete applications, requiring no concern for the underlying systems."
+
+  - prompt: "Which of the following is a key feature of Platform as a Service (PaaS)?"
+    options:
+      - "You manage the hardware and operating system yourself."
+      - "You build apps while the provider handles the OS and infrastructure."
+      - "You install your own operating system and runtime."
+      - "You use software via the internet without hosting it."
+    correct_index: 1 
+    explanation: "For PaaS, the provider handles the OS, runtime, and infrastructure while you build apps."
+
+  - prompt: "Fill in the blank: _________ is a method for controlling who can access what, and what actions they can take."
+    options:
+      - "IAM (Identity & Access Management)"
+      - "Encryption"
+      - "Logging & Monitoring"
+      - "Scalability"
+    correct_index: 0
+    explanation: "IAM (Identity & Access Management) is responsible for managing access permissions and user roles in the cloud."

@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 5 - Cloud
 has_toc: false
 nav_order: 1
+topic: topic5
+chapter: chapter1
 ---
 # Introduction to Cloud
 
@@ -100,6 +102,13 @@ Security in the cloud is a shared responsibility between the cloud provider and 
 ## Summary
 
 Cloud computing is the backbone of modern DevSecOps. It allows teams to innovate quickly, deploy securely, and scale easily. From choosing the right service model to understanding your security responsibilities, cloud knowledge is essential for any DevSecOps practitioner.
+
+---
+
+{% include quiz.html
+  id="topic5-chapter1"
+  data=site.data.quizzes.topic5.chapter1
+%}
 
 ---
 
