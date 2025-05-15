@@ -1,7 +1,7 @@
 ---
 title: Chapter 1 - Intro to Cloud
 layout: custom
-parent: Topic 5 - Cloud
+parent: Topic 5 - Cloud in DevSecOps
 has_toc: false
 nav_order: 1
 ---
