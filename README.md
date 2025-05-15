@@ -104,10 +104,10 @@ https://docs.google.com/presentation/d/1ESrzQka0eZ1L1KLqiXgI0yj2_FuhhFSfokiGwJE8
 ## Contact
 
 <p>Katie Shi - <a href="https://www.linkedin.com/in/katie-shi-ab4973185/">LinkedIn</a> - <a href= "mailto: katieshi413@gmail.com"> katieshi413@gmail.com </a></p>
-<p>Emily Choi - <a href="https://www.linkedin.com/in/emily-choii/">LinkedIn</a> - <a href= "mailto: eemilychoi@gmail.kcom"> eemilychoi@gmail.edu </a></p>
+<p>Emily Choi - <a href="https://www.linkedin.com/in/emily-choii/">LinkedIn</a> - <a href= "mailto: eemilychoi@gmail.com"> eemilychoi@gmail.com </a></p>
 <p>Jocelyn Margarones - <a href="https://www.linkedin.com/in/jocelyn-margarones-666770236/">LinkedIn</a> - <a href= "mailto: katieshi@uw.edu"> katieshi@uw.edu </a></p>
-<p>Mor Verdad - <a href="https://www.linkedin.com/in/mor-vered-470a36257/">LinkedIn</a> - <a href= "mailto: katieshi@uw.edu"> katieshi@uw.edu </a></p>
-<p>Mira Nair - <a href="https://www.linkedin.com/in/miranair/">LinkedIn</a> - <a href= "mailto: miranair@uw.edu"> miranair@uw.edu </a></p>
+<p>Mor Vered - <a href="https://www.linkedin.com/in/mor-vered-470a36257/">LinkedIn</a> - <a href= "mailto: katieshi@uw.edu"> katieshi@uw.edu </a></p>
+<p>Mira Nair - <a href="https://www.linkedin.com/in/miranair/">LinkedIn</a> - <a href= "mailto: katieshi@uw.edu"> katieshi@uw.edu </a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
