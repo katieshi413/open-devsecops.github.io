@@ -1,5 +1,5 @@
 ---
-title: Topic 5 - Cloud in DevSecOps
+title: Topic 5 - Cloud 
 layout: custom
 has_children: true
 has_toc: false
