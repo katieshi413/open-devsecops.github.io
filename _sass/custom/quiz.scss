@@ -3,7 +3,6 @@
     padding: 1rem;
     border: 2px solid #ccc;
     border-radius: 10px;
-    background-color: #ffffff;
 
     .quiz-question {
     margin-bottom: 1.5rem;
@@ -38,6 +37,10 @@
                 background-color: #f8d7da;
                 color: #721c24;
                 border: 1px solid #f5c6cb;
+            }
+
+            p#feedback-title {
+                margin-top: 0.5rem;
             }
         }
     }

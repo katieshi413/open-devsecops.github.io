@@ -9,7 +9,7 @@ nav_order: 1
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
     <thead>
-        <tr style="background-color: #f2f2f2; color: black;">
+        <tr style="background-color: #f2f2f2;">
             <th style="border: 1px solid lightgray;">Topic</th>
             <th style="border: 1px solid lightgray;">Chapter and Title</th>
             <th style="border: 1px solid lightgray;">Interactive Lab</th>
