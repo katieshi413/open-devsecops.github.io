@@ -50,6 +50,8 @@ https://docs.google.com/presentation/d/1ESrzQka0eZ1L1KLqiXgI0yj2_FuhhFSfokiGwJE8
 
 * [![Jekyll][Jekyll]][Jekyll-url]
 * [![Ruby][Ruby]][Ruby-url]
+* [![Markdown][Markdown]][Markdown-url]
+
 
 <p align=“right”>(<a href=“#readme-top”>back to top</a>)</p>
 
@@ -118,3 +120,5 @@ https://docs.google.com/presentation/d/1ESrzQka0eZ1L1KLqiXgI0yj2_FuhhFSfokiGwJE8
 [Jekyll-url]: https://jekyllrb.com/
 [Ruby]: https://img.shields.io/badge/Ruby-CC342D?logo=Ruby&logoColor=white
 [Ruby-url]: https://www.ruby-lang.org/en/
+[Markdown]: https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white
+[Markdown-url]: https://www.markdownguide.org/
