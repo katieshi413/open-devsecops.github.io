@@ -1,3 +1,112 @@
 <footer class="site-footer">
-    This site uses a custom theme based on <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>.
+  <!-- Button Container with Flex Layout -->
+  <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
+    <!-- Dark Mode Toggle -->
+    <button class="btn js-toggle-dark-mode" style="font-size: 1.2rem;"></button>
+
+    <!-- Font Size Toggle -->
+    <div id="font-size-control">
+      <button id="toggle-font-size" class="btn js-toggle-dark-mode" style="padding-top: 0.25rem;">
+        <img src="/assets/images/font-size.svg" alt="Font Size" style="height: 30px;" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Font Size Panel -->
+  <div id="font-size-panel" style="display: none; margin-bottom: 0.5rem;">
+    <input type="range" id="font-size-slider" min="12" max="40" />
+    <button id="reset-font-size" class="btn js-toggle-dark-mode" style="font-size: 1rem;">Reset</button>
+  </div>
+
+  <!-- Footer Text -->
+  <div class="display-text" id="display-text">
+    <br />
+    This site uses a custom theme based on
+    <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>.
+  </div>
 </footer>
+
+
+<script>
+  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+  // Set button icon based on theme
+  const updateButtonIcon = (theme) => {
+    toggleDarkMode.textContent = theme === 'dark' ? '🌙' : '☀️';
+  };
+
+  // Load and apply saved theme
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    jtd.setTheme(savedTheme);
+    updateButtonIcon(savedTheme);
+  }
+
+  // Toggle and save theme
+  jtd.addEvent(toggleDarkMode, 'click', function () {
+    const currentTheme = jtd.getTheme();
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    jtd.setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateButtonIcon(newTheme);
+  });
+
+</script>
+
+
+<script>
+  const fontSizeSlider = document.getElementById("font-size-slider");
+  const resetButton = document.getElementById("reset-font-size");
+  const toggleButton = document.getElementById("toggle-font-size");
+  const fontSizePanel = document.getElementById("font-size-panel");
+
+  const defaultFontSize = "16px";
+
+  // Load saved font size
+  const savedFontSize = localStorage.getItem("fontSize");
+  if (savedFontSize) {
+    applyFontSize(savedFontSize);
+    fontSizeSlider.value = parseInt(savedFontSize);
+  } else {
+    applyFontSize(defaultFontSize);
+    fontSizeSlider.value = parseInt(defaultFontSize);
+  }
+
+  // Apply font size from slider
+  fontSizeSlider.addEventListener("input", () => {
+    const fontSize = fontSizeSlider.value + "px";
+    applyFontSize(fontSize);
+    localStorage.setItem("fontSize", fontSize);
+  });
+
+  // Apply font size function
+  function applyFontSize(fontSize) {
+    document.body.style.fontSize = fontSize;
+    document.querySelectorAll("body *:not(.side-bar):not(#tocbot-toc)").forEach(el => {
+      el.style.fontSize = fontSize + " !important";
+    });
+  }
+
+  // Reset font size
+  resetButton.addEventListener("click", () => {
+    applyFontSize(defaultFontSize);
+    fontSizeSlider.value = parseInt(defaultFontSize);
+    localStorage.removeItem("fontSize");
+  });
+
+  // Toggle font size panel + button content
+  toggleButton.addEventListener("click", () => {
+  const isVisible = fontSizePanel.style.display === "block";
+
+  fontSizePanel.style.display = isVisible ? "none" : "block";
+
+  // Toggle image and styled text
+  if (isVisible) {
+    toggleButton.innerHTML = `<img src="/assets/images/font-size.svg" alt="Font Size" style="height: 30px;" />`;
+  } else {
+    toggleButton.innerHTML = `<span style="font-size: 1rem;">Hide</span>`;
+  }
+});
+</script>
+
