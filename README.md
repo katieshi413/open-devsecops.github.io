@@ -40,7 +40,7 @@ Many students entering the software industry are unprepared for the newest expec
 
 ### Final Website
 
-katieshi413.github.io/open-devsecops.github.io/
+www.katieshi413.github.io/open-devsecops.github.io/
 
 ### Final Presentation
 
