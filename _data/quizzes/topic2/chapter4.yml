@@ -1,0 +1,43 @@
+questions:
+    - prompt: "Which of the following should <b>NOT</b> typically be included in a README file?"
+      options:
+        - "Project title"
+        - "Full API documentation"
+        - "Installation instructions"
+        - "Contributing guidelines"
+      correct_index: 1
+      explanation: "Full API documentation is better suited for a wiki or dedicated documentation file. A README should stay concise and high-level."
+
+    - prompt: "True or False: Code comments should explain what the code is doing line by line to ensure full clarity."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "Comments should focus on explaining <i>why</i> the code exists or the reasoning behind complex logic — not what the code does line by line."
+
+    - prompt: "A project's __________ is the best place to store tutorials, extended documentation, and design notes."
+      options:
+        - "Installation guidelines"
+        - "Code comments"
+        - "READMEs"
+        - "Wiki"
+      correct_index: 3
+      explanation: "Wikis are ideal for more detailed content like tutorials and design notes that don't fit in a README."
+    
+    - prompt: "When documenting your code, what should you aim to explain?"
+      options:
+        - "Why key decisions were made in the implementation"
+        - "How to install the program"
+        - "Each variable used in the program"
+        - "Syntax of the programming language used"
+      correct_index: 0
+      explanation: "Good inline comments focus on <i>why</i> the code exists or how it solves a problem, not basic syntax or details already obvious from the code."
+
+    - prompt: "You're wrapping up your work on a team project and may be leaving soon. You want to ensure others can continue where you left off. What combination of documentation should you focus on?"
+      options:
+        - "A short README and daily status updates via chat"
+        - "A detailed README and clear, explanatory code comments"
+        - "Extensive code comments and commit messages only"
+        - "Use a wiki with technical documentation"
+      correct_index: 1
+      explanation: "A clear README helps new users understand the project, and explanatory code comments clarify decisions within the code. This combo ensures others can continue without needing to ask questions."

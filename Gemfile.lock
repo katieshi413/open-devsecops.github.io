@@ -69,6 +69,9 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.69.5)
+      google-protobuf (~> 3.23)
+      rake (>= 13.0.0)
     sass-embedded (1.69.5-arm64-darwin)
       google-protobuf (~> 3.23)
     sass-embedded (1.69.5-x64-mingw-ucrt)
@@ -85,6 +88,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   arm64-darwin-24
+  ruby
   x64-mingw-ucrt
   x86_64-darwin-22
   x86_64-darwin-23
@@ -99,4 +103,4 @@ DEPENDENCIES
   logger
 
 BUNDLED WITH
-   2.6.8
+   2.6.7

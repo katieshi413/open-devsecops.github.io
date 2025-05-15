@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 2 - Git
 has_toc: false
 nav_order: 4
+topic: topic2
+chapter: chapter4
 ---
 
 # Chapter 4 - Git Best Practices
@@ -22,6 +24,12 @@ Proper documentation is key to the longevity and maintainability of software. Yo
   - Well-placed comments within the code can clarify complex algorithms, decision-making, or reasons for significant changes.
   - Use comments to explain the *why*, not the *what* — the code speaks for itself on the latter.
 
+---
+
+{% include quiz.html
+  id="topic2-chapter4"
+  data=site.data.quizzes.topic2.chapter4
+%}
 
 ### References 
 <details>

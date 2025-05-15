@@ -5,6 +5,8 @@ parent: Topic 2 - Git
 has_children: true
 has_toc: false
 nav_order: 3
+topic: topic2
+chapter: chapter3
 ---
 
 # Chapter 3 - Git Intermediate Concepts
@@ -38,6 +40,13 @@ Other intermediate concepts of version control include:
 - **Stashing**: Save uncommitted changes in a stack while you switch branches.
 
 By mastering these concepts, developers can collaborate more effectively and maintain a clean, functional codebase.
+
+---
+
+{% include quiz.html
+  id="topic2-chapter3"
+  data=site.data.quizzes.topic2.chapter3
+%}
 
 ### References 
 <details>

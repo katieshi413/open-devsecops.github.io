@@ -1,0 +1,48 @@
+questions:
+    - prompt: "What is the primary purpose of feature branching in Git?"
+      options:
+        - "To fix urgent bugs directly in production"
+        - "To keep changes isolated for each new feature"
+        - "To maintain separate branches for release candidates"
+        - "To rewrite commit history into a linear progression"
+      correct_index: 1
+      explanation: "Feature branching is used to create separate branches for each new feature, keeping changes isolated from the main codebase."
+      
+    - prompt: "True or False: Hotfix branches are typically maintained separately for long periods, similar to release branches."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "False. Hotfix branches are short-lived branches created quickly to fix urgent bugs, unlike release branches that may be maintained longer."
+
+    - prompt: "What is the role of Pull Requests (PRs) in Git workflows?"
+      options:
+        - To directly commit changes to the main branch
+        - To merge branches automatically without review
+        - To notify others of pushed changes and facilitate review
+        - To stash uncommitted changes before switching branches
+      correct_index: 2
+      explanation: "Pull Requests allow developers to tell others about changes pushed to a branch, enabling code review and collaboration."
+
+    - prompt: "In Git, the process of temporarily saving uncommitted changes so you can switch branches without losing your work is called ________."
+      options:
+        - "Stashing"
+        - "Squashing"
+        - "Fast-Forwarding"
+        - "Rebasing"
+      correct_index: 0
+      explanation: "Stashing. Stashing allows you to save your changes to a stack so you can safely switch branches."
+
+    - prompt: | 
+         A critical bug was discovered in the production environment. The team needs to fix it immediately without affecting ongoing development work on the main and feature branches. 
+         After the fix is complete, it should be merged into both the main and the release branches. What is the most appropriate approach?
+      options:
+        - "Create a feature branch and squash merge it into main"
+        - "Rebase the main branch on top of the fix"
+        - "Cherry-pick the fix into all branches"
+        - "Create a hotfix branch and use a three-way merge into both main and release"
+      correct_index: 3
+      explanation: |
+         A three-way merge is used when two branches have diverged. In this case, both main and release may have different changes. By creating a hotfix branch and merging it into both using 
+         a three-way merge, Git compares the common ancestor, the hotfix, and the target branch to create a new commit that safely integrates the fix without overwriting existing work. This 
+         ensures stability and preserves history in both branches.
