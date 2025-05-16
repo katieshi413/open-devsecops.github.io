@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 3 - CI/CD Fundamentals
 has_toc: false
 nav_order: 2
+topic: topic3
+chapter: chapter2
 ---
 
 ## Utilizing Web Hooks for Continuous Integration
@@ -26,6 +28,13 @@ Then, once you want to make a change, the following happens:
 1. **You push code to GitHub** - This is you updating your repository with new changes.
 2. **GitHub sends a webhook** - Because of the rule you set up, GitHub notifies your CI/CD tool that something happened (like a code push).
 3. **CI/CD tool starts tests** - The CI/CD tool, now informed by the webhook, starts running the tests or actions you've configured it to perform upon receiving such a notification.
+
+---
+
+{% include quiz.html
+  id="topic3-chapter2"
+  data=site.data.quizzes.topic3.chapter2
+%}
 
 ### References 
 <details>

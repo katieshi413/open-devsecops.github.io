@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What is the main purpose of a webhook in a CI/CD workflow?"
+      options:
+        - "To host your application on a server"
+        - "To notify an external service that an event has occurred in your repository"
+        - "To merge code automatically into the main branch"
+        - "To track version history of your project"
+      correct_index: 1
+      explanation: "A webhook sends a notification to an external service (like a CI/CD tool) when a specified event happens in your repo."
+
+    - prompt: "Which content type is commonly used to send data in a webhook request?"
+      options:
+        - "XML"
+        - "YAML"
+        - "JSON"
+        - "HTML"
+      correct_index: 2
+      explanation: "JSON is the most commonly used format for webhook payloads due to its wide support and readability."
+
+    - prompt: "Which of the following is a common event that can trigger a webhook in GitHub?"
+      options:
+        - "Creating a README file"
+        - "Cloning a repository"
+        - "Creating a release"
+        - "Viewing a pull request"
+      correct_index: 2
+      explanation: "Webhooks can be triggered by events like releases, pushes, and pull request changes."
+
+    - prompt: "True or False: Once a webhook is set up, CI/CD tools automatically trigger based on the rules you define, such as pushes or pull requests."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "True. Webhooks notify CI/CD tools automatically based on configured triggers, reducing manual intervention."
+
+    - prompt: "After you push code to GitHub, what is the next step in the webhook workflow?"
+      options:
+        - "You manually trigger the test suite"
+        - "GitHub runs the tests itself"
+        - "The pull request is automatically merged"
+        - "GitHub sends a webhook to the CI/CD tool"
+      correct_index: 3
+      explanation: "GitHub sends a webhook to notify the CI/CD system, which then takes the appropriate action."
