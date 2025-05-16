@@ -3,7 +3,7 @@ title: Chapter 1 - Intro to Cybersecurity
 layout: custom
 parent: Topic 4 - Cybersecurity
 has_toc: false
-nav_order: 3
+nav_order: 2
 ---
 
 # Cybersecurity Fundamentals
