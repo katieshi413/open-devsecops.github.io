@@ -5,6 +5,8 @@ parent: Topic 3 - DevSecOps Fundamentals
 has_children: false
 has_toc: false
 nav_order: 3
+topic: topic3
+chapter: chapter3
 ---
 
 # Chapter 3 - Automated Testing in CI/CD
@@ -87,6 +89,14 @@ Creating a robust automated testing framework involves several critical steps:
 
 Automated testing is a cornerstone of modern software development. By integrating effective automated tests into the CI/CD pipeline, teams can ensure that their software is not only functional but also meets quality standards before it reaches the end-user. Embracing these practices not only enhances product reliability but also empowers teams to innovate rapidly with confidence.
 
+---
+
+{% include quiz.html
+  id="topic3-chapter3"
+  data=site.data.quizzes.topic3.chapter3
+%}
+
+--- 
 
 ### References
 <details>

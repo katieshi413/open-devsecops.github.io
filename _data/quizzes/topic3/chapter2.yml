@@ -1,43 +1,44 @@
 questions:
-    - prompt: "What is the main purpose of a webhook in a CI/CD workflow?"
-      options:
-        - "To host your application on a server"
-        - "To notify an external service that an event has occurred in your repository"
-        - "To merge code automatically into the main branch"
-        - "To track version history of your project"
-      correct_index: 1
-      explanation: "A webhook sends a notification to an external service (like a CI/CD tool) when a specified event happens in your repo."
-
-    - prompt: "Which content type is commonly used to send data in a webhook request?"
-      options:
-        - "XML"
-        - "YAML"
-        - "JSON"
-        - "HTML"
-      correct_index: 2
-      explanation: "JSON is the most commonly used format for webhook payloads due to its wide support and readability."
-
-    - prompt: "Which of the following is a common event that can trigger a webhook in GitHub?"
-      options:
-        - "Creating a README file"
-        - "Cloning a repository"
-        - "Creating a release"
-        - "Viewing a pull request"
-      correct_index: 2
-      explanation: "Webhooks can be triggered by events like releases, pushes, and pull request changes."
-
-    - prompt: "True or False: Once a webhook is set up, CI/CD tools automatically trigger based on the rules you define, such as pushes or pull requests."
+    - prompt: "True or False: CI/CD stands for Continuous Improvement and Continuous Development."
       options:
         - "True"
         - "False"
-      correct_index: 0
-      explanation: "True. Webhooks notify CI/CD tools automatically based on configured triggers, reducing manual intervention."
+      correct_index: 1
+      explanation: "CI/CD stands for Continuous Integration and Continuous Delivery. It is a set of DevOps practices that help deliver frequent code changes reliably."
 
-    - prompt: "After you push code to GitHub, what is the next step in the webhook workflow?"
+    - prompt: "What is the primary difference between Continuous Integration (CI) and Continuous Delivery (CD)?"
       options:
-        - "You manually trigger the test suite"
-        - "GitHub runs the tests itself"
-        - "The pull request is automatically merged"
-        - "GitHub sends a webhook to the CI/CD tool"
-      correct_index: 3
-      explanation: "GitHub sends a webhook to notify the CI/CD system, which then takes the appropriate action."
+        - "CI focuses on automating deployment; CD focuses on testing code changes."
+        - "CI is used only by operations teams; CD is used only by developers."
+        - "CI ensures code changes are automatically tested; CD ensures those changes are automatically deployed."
+        - "CI happens after CD in the software development lifecycle."
+      correct_index: 2
+      explanation: "Continuous Integration (CI) automates the testing of code changes while Continuous Delivery (CD) automates the deployment of those changes to production environments."
+
+    - prompt: "Which of the following best describes the relationship between DevOps and CI/CD?"
+      options:
+        - "CI/CD is a broader methodology that includes DevOps as a component."
+        - "CI/CD refers to specific automation practices that are part of the broader DevOps methodology."
+        - "DevOps and CI/CD are completely unrelated practices."
+        - "DevOps only applies to development teams, while CI/CD is for operations teams."
+      correct_index: 1
+      explanation: | 
+                    DevOps is a broad cultural and technical approach focused on collaboration and automation across the software lifecycle. 
+                    CI/CD refers to specific practices within DevOps that automate integration, testing, and deployment.
+    
+    - prompt: "Which of the following is NOT a method commonly associated with CI?"
+      options:
+       - "Automating the build and test process"
+       - "Supporting 'fail fast' principles with quick feedback"
+       - "Automating deployment to production"
+       - "Identifying integration issues early"
+      correct_index: 2
+      explanation: "Automating deployment is a key part of Continuous Delivery (CD), not CI."
+
+    - prompt: "Fill in the blank: The method that enables organizations to release software updates quickly and reliably while minimizing risks is ________."
+      options:
+        - DevOps
+        - Continuous Integration (CI)
+        - Continuous Delivery (CD)
+      correct_index: 2
+      explanation: "Continuous Delivery (CD) automates the deployment process, allowing fast and reliable releases with minimized risks."

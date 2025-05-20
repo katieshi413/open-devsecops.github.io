@@ -5,6 +5,8 @@ parent: Topic 3 - DevSecOps Fundamentals
 has_children: true
 has_toc: false
 nav_order: 6
+topic: topic3
+chapter: chapter6
 ---
 
 # Chapter 6 - Definition of Containerization
@@ -75,7 +77,13 @@ So, while an "artifact" is a product of the software development process, "Artif
 {: .lab}
 [Lab 2 - Accessing Corporate Network and AWS ECR](./lab/containerization-lab-2.html){: .btn .btn-purple .btn-fill }
 
+---
+{% include quiz.html
+  id="topic3-chapter6"
+  data=site.data.quizzes.topic3.chapter6
+%}
 
+---
 
 
 

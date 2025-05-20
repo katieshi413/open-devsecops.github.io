@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
 nav_order: 1
+topic: topic3
+chapter: chapter1
 ---
 
 # Chapter 1 - DevSecOps
@@ -87,8 +89,14 @@ To **shift right** is to monitor user behavior, usage, performance, and security
 </p>
 </details> 
 
+--- 
 
+{% include quiz.html
+  id="topic3-chapter1"
+  data=site.data.quizzes.topic3.chapter1
+%}
 
+---
  
 ### References
 

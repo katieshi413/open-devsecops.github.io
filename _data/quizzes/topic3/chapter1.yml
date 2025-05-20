@@ -1,0 +1,45 @@
+questions:
+    - prompt: "Which three fields does DevSecOps bring together?"
+      options:
+        - "Design, Security, Testing"
+        - "Development, Security, Operations"
+        - "Data, Security, Development"
+        - "DevOps, QA, Security"
+      correct_index: 1
+      explanation: "DevSecOps combines Development, Security, and Operations into a unified approach."
+
+    - prompt: "What is the main purpose of <em>shift left</em> testing?"
+      options:
+        - "Monitor user behavior in production"
+        - "Fix bugs after release"
+        - "Improve infrastructure automation"
+        - "Implement security testing early in development"
+      correct_index: 3
+      explanation: | 
+                    <em>Shift left</em> testing is about catching security vulnerabilities early in the development process,  allowing developers to identify and fix 
+                    vulnerabilities during design and coding phases, rather than discovering them late in testing or production (where fixes are costlier and riskier).
+
+    - prompt: "True or False: Static Application Security Testing (SAST) occurs while the application is running."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "SAST happens before the application compiles. DAST happens during runtime."
+
+    - prompt: "Fill in the blank: In the SDLC, a common issue is that security activities are deferred until the ________ phase."
+      options:
+        - "planning"
+        - "deployment"
+        - "testing"
+        - "maintenance"
+      correct_index: 2
+      explanation: "Security is often left until the <b>testing phase</b>, which is too late to catch design-related issues. Addressing security earlier in the SDLC helps reduce the risk of vulnerabilities slipping through."
+
+    - prompt: "Which type of security testing simulates real-world attacks while the app is running?"
+      options:
+        - Static testing
+        - Container scanning
+        - Dynamic testing
+        - Code linting
+      correct_index: 2
+      explanation: "Dynamic testing checks for vulnerabilities by simulating attacks while the application runs."

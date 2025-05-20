@@ -5,6 +5,8 @@ parent: Topic 3 - DevSecOps Fundamentals
 has_children: false
 has_toc: false
 nav_order: 2
+topic: topic3
+chapter: chapter2
 ---
 
 # Chapter 2 - CI/CD Fundamentals
@@ -111,6 +113,15 @@ nav_order: 2
     </td>
   </tr>
 </table>
+
+---
+
+{% include quiz.html
+  id="topic3-chapter2"
+  data=site.data.quizzes.topic3.chapter2
+%}
+
+---
 
 ### References 
 <details>

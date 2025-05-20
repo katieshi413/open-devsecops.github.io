@@ -1,0 +1,49 @@
+questions:
+    - prompt: "True or False: Automated testing reduces the chances of human error by automating repetitive tasks."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "Automated testing increases accuracy by minimizing human error in repetitive testing."
+
+
+    - prompt: "Which type of automated test checks individual functions or components?"
+      options:
+        - "Unit tests"
+        - "Integration tests"
+        - "End-to-End tests"
+        - "Manual tests"
+      correct_index: 0
+      explanation: "Unit tests focus on testing single components or functions in isolation."
+
+    - prompt: "What is a common challenge of automated testing?"
+      options:
+        - "It eliminates the need for developers."
+        - "It requires significant initial setup and ongoing maintenance."
+        - "It makes manual testing obsolete overnight."
+        - "It requires no maintenance once setup."
+      correct_index: 1
+      explanation: "Automated testing requires resources to set up and maintain tests as the system evolves."
+
+    - prompt: "Which of the following is NOT a step in building a robust automated testing framework?"
+      options:
+        - Define clear objectives
+        - Hire more manual testers
+        - Choose the right tools
+        - Integrate into CI/CD
+      correct_index: 1
+      explanation: "Building an automated framework focuses on objectives, tools, integration, and monitoring, not on hiring 
+                    more manual testers."
+
+
+    - prompt: "Fill in the blank: One key benefit of automated testing is faster ______, providing immediate insights on code changes."
+      options:
+        - feedback
+        - deployment
+        - documentation
+        - debugging
+      correct_index: 0
+      explanation: "Automated tests provide quick feedback, accelerating development cycles."
+
+
+

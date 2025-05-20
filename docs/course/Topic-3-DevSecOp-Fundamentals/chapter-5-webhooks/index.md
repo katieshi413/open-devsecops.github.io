@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
 nav_order: 5
+topic: topic3
+chapter: chapter5
 ---
 
 # Chapter 5 - Utilizing Web Hooks for Continuous Integration
@@ -30,8 +32,8 @@ Then, once you want to make a change, the following happens:
 ---
 
 {% include quiz.html
-  id="topic3-chapter2"
-  data=site.data.quizzes.topic3.chapter2
+  id="topic3-chapter5"
+  data=site.data.quizzes.topic3.chapter5
 %}
 
 ### References 

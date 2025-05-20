@@ -5,6 +5,8 @@ parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
 has_children: true
 nav_order: 4
+topic: topic3
+chapter: chapter4
 ---
 
 # Chapter 4 - Introduction to Deployment
@@ -104,7 +106,14 @@ Deployment strategies are crucial for managing the transition of code from devel
 
    **Use Case**: Suitable for cloud-native applications where infrastructure can be easily replicated and managed as code.
 
+---
 
+{% include quiz.html
+  id="topic3-chapter4"
+  data=site.data.quizzes.topic3.chapter4
+%}
+
+---
 
 
 
