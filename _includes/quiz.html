@@ -1,6 +1,14 @@
 <h2 id="quiz-title">🧠 Knowledge Check</h2>
 <p>Answer the questions below to test your knowledge!</p>
 
+<!-- Modal for showing score -->
+<div id="scoreModal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span id="closeScoreModal" class="close">&times;</span>
+        <p id="scoreMessage"></p>
+    </div>
+</div>
+
 <form class="quiz-form" data-quiz-id="{{ include.id }}">
     {% for q in include.data.questions %}
     <div class="quiz-question" data-question-index="{{ forloop.index0 }}">

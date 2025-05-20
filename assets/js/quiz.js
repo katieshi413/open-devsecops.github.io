@@ -6,6 +6,7 @@ function submitQuiz(quizId) {
   const questions = form.querySelectorAll('.quiz-question');
   let allCorrect = true;
   let allAnswered = true;
+  let score = 0;
 
   questions.forEach((questionDiv, index) => {
     const selected = questionDiv.querySelector('input[type="radio"]:checked');
@@ -24,6 +25,7 @@ function submitQuiz(quizId) {
     } else if (parseInt(selected.value) === correctIndex) {
       feedback.innerHTML = `<p id="feedback-title" style="color:green;">Correct! ✅</p><p>${explanation}`;
       feedback.classList.add("correct");
+      score++;
     } else {
       feedback.innerHTML = `<p id="feedback-title" style="color:red;">Incorrect ❌</p><p>${explanation}`;
       feedback.classList.add("incorrect");
@@ -39,6 +41,10 @@ function submitQuiz(quizId) {
 
   if (allAnswered && allCorrect) {
     triggerConfetti();
+  }
+
+  if (allAnswered) {
+    showScoreModal(score);
   }
 }
 
@@ -79,5 +85,32 @@ function triggerConfetti () {
       spread: 120,
       startVelocity: 45,
     });
-  }, 650);
+  }, 700);
 }
+
+
+function showScoreModal(score) {
+  const modal = document.getElementById('scoreModal');
+  const message = document.getElementById('scoreMessage');
+
+  if (score === 5) {
+    message.innerHTML = `<h1>🎉</h1> Perfect score! 💯 <br> You got <b>5</b>/5 questions right!`;
+  } else if (score === 4) {
+    message.innerHTML = `<h1>🤓</h1> You scored <b>${score}</b>/5. Almost there!`;
+  } else {
+    message.innerHTML = `<h1>📚</h1> You scored <b>${score}</b>/5. Keep practicing!`;
+  }
+  
+  modal.style.display = 'flex';
+}
+
+document.getElementById('closeScoreModal').addEventListener('click', () => {
+  document.getElementById('scoreModal').style.display = 'none';
+});
+
+window.addEventListener('click', (event) => {
+  const modal = document.getElementById('scoreModal');
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+});
