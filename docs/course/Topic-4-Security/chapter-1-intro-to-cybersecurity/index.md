@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 4 - Cybersecurity
 has_toc: false
 nav_order: 1
+topic: topic4
+chapter: chapter1
 ---
 
 # Chapter 1 - Cybersecurity Fundamentals
@@ -58,3 +60,12 @@ A company with poor security practices is at **greater risk** of:
 These actions can result in **unauthorized access**, data breaches, or serious damage to systems and business operations.
 
 Protect your systems by understanding and addressing these cybersecurity fundamentals.
+
+--- 
+
+{% include quiz.html
+  id="topic4-chapter1"
+  data=site.data.quizzes.topic4.chapter1
+%}
+
+---

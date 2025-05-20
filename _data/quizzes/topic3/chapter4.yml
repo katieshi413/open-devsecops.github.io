@@ -1,0 +1,43 @@
+questions:
+    - prompt: "Fill in the blank: The ______ environment is the live environment used by end users."
+      options:
+        - "Production"
+        - "Staging"
+        - "Development"
+        - "Testing"
+      correct_index: 0
+      explanation: "Production is the live environment with real user data and traffic."
+
+    - prompt: "What deployment strategy involves switching traffic between two identical environments to achieve zero downtime?"
+      options:
+        - "Canary Deployment"
+        - "Blue-Green Deployment"
+        - "Rolling Deployment"
+        - "Feature Toggles"
+      correct_index: 1
+      explanation: "Blue-Green deployment alternates between two identical environments for easy rollback and minimal downtime."
+
+    - prompt: "True or False: Canary Deployment releases new changes gradually to a small subset of users to gather real user feedback."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "Canary Deployment minimizes risk by rolling out changes to a limited audience first."
+
+    - prompt: "Which deployment strategy updates application instances in phases without taking down the entire application?"
+      options:
+        - "Immutable Deployment"
+        - "Blue-Green Deployment"
+        - "A/B Testing Deployment"
+        - "Rolling Deployment"
+      correct_index: 3
+      explanation: "Rolling deployment updates in phases, maintaining high availability."
+
+    - prompt: "Fill in the blank: A/B Testing Deployment compares two versions based on ______ to optimize user experience."
+      options:
+        - "code quality"
+        - "deployment speed"
+        - "specific metrics"
+        - "database schema"
+      correct_index: 2
+      explanation: "A/B Testing uses traffic segmentation and metrics to validate hypotheses about user behavior."

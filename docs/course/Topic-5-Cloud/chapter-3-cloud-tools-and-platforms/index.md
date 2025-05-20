@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 5 - Cloud
 has_toc: false
 nav_order: 3
+topic: topic5
+chapter: chapter3
 ---
 
 # DevSecOps Cloud Tools and Platforms
@@ -139,6 +141,13 @@ DevSecOps in the cloud is powered by a rich ecosystem of specialized tools. From
 - Help you monitor, detect, and respond in real time  
 
 > Remember: tools don’t replace strategy—but they do make secure development scalable and repeatable.
+
+---
+
+{% include quiz.html
+  id="topic5-chapter3"
+  data=site.data.quizzes.topic5.chapter3
+%}
 
 ---
 

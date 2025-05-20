@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 6 - DevSecOps in Industry
 has_toc: false
 nav_order: 2
+topic: topic6
+chapter: chapter2
 ---
 
 # 🔐 Common DevSecOps Roles in the Industry
@@ -136,3 +138,12 @@ In larger organizations, additional roles often support DevSecOps efforts:
 | Compliance Analyst               | Helps teams meet regulatory standards                      |
 | Penetration Tester               | Simulates attacks and recommends security improvements     |
 | Security Champion                | Promotes secure coding within development teams            |
+
+---
+
+{% include quiz.html
+  id="topic6-chapter2"
+  data=site.data.quizzes.topic6.chapter2
+%}
+
+---

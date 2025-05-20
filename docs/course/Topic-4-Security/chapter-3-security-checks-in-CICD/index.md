@@ -5,6 +5,8 @@ parent: Topic 4 - Cybersecurity
 has_children: true
 has_toc: false
 nav_order: 3
+topic: topic4
+chapter: chapter3
 ---
 
 # Chapter 3 - Security Checks in CD/CD
@@ -136,6 +138,15 @@ Vulnerability scanning in a CI/CD pipeline refers to the automated process of id
 > Jenkins with security plugins - Jenkins, a popular automation server, can be configured with various security plugins to perform static and dynamic analysis, as well as other security checks within the CI/CD pipeline
 
 There are countless variations of vulnerability scanners out there and are constantly being innovated. Every software team should take throrough time to research and test as many tools as possible within their budget and timeline to ensure their pipeline is fully covered.
+
+--- 
+
+{% include quiz.html
+  id="topic4-chapter3"
+  data=site.data.quizzes.topic4.chapter3
+%}
+
+---
 
 
 ### References

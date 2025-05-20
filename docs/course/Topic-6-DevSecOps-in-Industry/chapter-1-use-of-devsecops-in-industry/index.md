@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 6 - DevSecOps in Industry
 has_toc: false
 nav_order: 1
+topic: topic6
+chapter: chapter1
 ---
 
 # Chapter 6 - DevSecOps Use Cases Across Industries
@@ -125,3 +127,12 @@ These real-world use cases highlight how critical DevSecOps is for:
 - Reducing incident recovery times
 
 As you continue to learn DevSecOps, always think in terms of **automation**, **integration**, and **visibility**. And remember: security isn't a gate at the end—it's a thread that runs through every step.
+
+---
+
+{% include quiz.html
+  id="topic6-chapter1"
+  data=site.data.quizzes.topic6.chapter1
+%}
+
+---

@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 5 - Cloud 
 has_toc: false
 nav_order: 2
+topic: topic5
+chapter: chapter2
 ---
 
 # Cloud-Native DevSecOps
@@ -103,6 +105,13 @@ The cloud has revolutionized DevSecOps by making it easier to automate, secure, 
 - Constant vigilance required  
 
 Mastering cloud-native DevSecOps practices ensures that security is not a bottleneck—but an enabler for innovation.
+
+---
+
+{% include quiz.html
+  id="topic5-chapter2"
+  data=site.data.quizzes.topic5.chapter2
+%}
 
 ---
 

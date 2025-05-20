@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 4 - Cybersecurity
 has_toc: false
 nav_order: 2
+topic: topic4
+chapter: chapter2
 ---
 
 # Chapter 2 - Security Risks and Vulnerabilities in the SDLC
@@ -25,6 +27,13 @@ To understand how to protect software by integrating security into every step of
 | **Improper Authentication**      | Weak or outdated login systems                                                | Requiring Multi-factor Authentication (MFA)                                                     |
 | **Insufficient Logging and Monitoring** | Weak identification and alerting of suspicious activity in a system           | Regular log reviews and real-time alerts of suspicious network and system activity             |
 | **Misconfiguration**             | Systems are set up incorrectly                                                 | Automated scanning and testing tools and have a separate dev and production project to ensure no misconfigurations are live |
+
+---
+
+{% include quiz.html
+  id="topic4-chapter2"
+  data=site.data.quizzes.topic4.chapter2
+%}
 
 ---
 

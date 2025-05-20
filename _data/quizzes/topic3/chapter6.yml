@@ -1,0 +1,45 @@
+questions:
+    - prompt: "What is a container in cloud computing?"
+      options:
+        - A virtual machine with its own operating system
+        - A standardized unit of software packaging code and dependencies to run reliably across environments
+        - A cloud storage bucket for applications
+        - A physical server hosting multiple applications
+      correct_index: 1
+      explanation: "Containers package code and all dependencies without the overhead of a full OS, unlike virtual machines."
+
+    - prompt: "Which of the following is NOT a benefit of containerization?"
+      options:
+        - Portability across environments
+        - Isolation of applications
+        - Requires full OS boot per container
+        - Scalability within a shared OS
+      correct_index: 2
+      explanation: "Containers do not require booting a full OS for each instance, which makes them lightweight."
+
+    - prompt: "An artifact in containerization typically refers to a ______."
+      options:
+        - Container image
+        - Virtual machine
+        - Source code repository
+        - Running container
+      correct_index: 0
+      explanation: "An artifact is the container image, a read-only snapshot used to create containers."
+
+    - prompt: "Which use case is NOT typically associated with containerization?"
+      options:
+        - Cloud migration of legacy apps
+        - Manual updating of IoT devices without containers
+        - Microservices architecture deployment
+        - Dynamic scaling of applications
+      correct_index: 1
+      explanation: "Manual updates without containers are complex; containerization simplifies deployment and updates."
+
+    - prompt: "Which of the following best describes fault tolerance in containerization?"
+      options:
+        - Fault tolerance is not possible in containers
+        - One faulty container does not affect others running on the same host
+        - Containers share faults between them
+        - All containers stop when one container fails
+      correct_index: 1
+      explanation: "Containers are isolated, so faults in one do not impact others, improving application resilience."
