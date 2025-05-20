@@ -4,7 +4,7 @@ layout: custom
 parent: Topic 3 - CI/CD Fundamentals
 has_toc: false
 has_children: true
-nav_order: 4
+nav_order: 5
 ---
 
 # Introduction to Deployment

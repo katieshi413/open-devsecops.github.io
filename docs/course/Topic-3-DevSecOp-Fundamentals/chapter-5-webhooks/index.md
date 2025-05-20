@@ -3,9 +3,7 @@ title: Chapter 2 - Webhooks
 layout: custom
 parent: Topic 3 - CI/CD Fundamentals
 has_toc: false
-nav_order: 2
-topic: topic3
-chapter: chapter2
+nav_order: 3
 ---
 
 ## Utilizing Web Hooks for Continuous Integration
