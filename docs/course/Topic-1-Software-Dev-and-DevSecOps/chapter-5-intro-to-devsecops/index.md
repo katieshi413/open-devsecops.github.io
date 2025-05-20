@@ -20,7 +20,7 @@ nav_order: 5
 Ok, now what? You just have to start integrating this into your coding practices? Actually yes, the whole reason this curriculum is applicable for every person working in IT is because it is best development practice to have a secure lifecycle throughout all of the processes IT goes through when developing a project.
 
 <div style="text-align: center;">
-    <img src="https://www.redhat.com/rhdc/managed-files/styles/wysiwyg_full_width/private/devsecops-linear-405x259.png?itok=XJ87HKrA" alt="DevSecOps" style="max-width:70%;height:auto;"/>
+    <img src="https://www.redhat.com/rhdc/managed-files/styles/wysiwyg_full_width/private/devsecops-linear-405x259.png.webp?itok=sAeNhh03" alt="DevSecOps" style="max-width:70%;height:auto;"/>
     <p><em>Source: <a href="https://www.redhat.com/en/topics/devops/what-is-devsecops">Red Hat</a></em></p>
 </div>
 

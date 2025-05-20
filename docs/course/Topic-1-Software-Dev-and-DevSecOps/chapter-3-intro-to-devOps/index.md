@@ -213,7 +213,7 @@ In many companies, Development and Operations teams work independently, leading 
 <p>DevOps, short for <strong>Development & Operations</strong>, is a term that describes a collection of different practices, ideas, and frameworks that streamline the development and collaboration process for a product.</p>
 
 <div style="text-align: center;">
-    <img src="https://orangematter.solarwinds.com/wp-content/uploads/2022/03/DevOps-lifecycle-capabilities-1024x621.png" alt="DevOps Lifecycle" style="max-width:70%;height:auto;"/>
+    <img src="https://www.solarwinds.com/wp-content/uploads/2022/03/devops-lifecycle.png" alt="DevOps Lifecycle" style="max-width:70%;height:auto;"/>
     <p><em>Source: <a href="http://orangematter.solarwinds.com/2022/03/21/what-is-devops/">Orange Matter</a></em></p>
 </div>
 

@@ -12,8 +12,10 @@ nav_order: 1
 
 The **Software Development Life Cycle (SDLC)** is a structured process used by software developers to build high-quality software applications and manage projects efficiently. It divides software development and maintenance into distinct phases, providing a clear roadmap for teams to follow.
 
-![SDLC Phases](https://k21academy.com/wp-content/uploads/2021/08/Six-Stages-of-DevOps-Lifecycle.jpg)
-*A circular loop outlining the 6 common phases of the Software Development Cycle*
+<div style="text-align: center;">
+    <img src="https://k21academy.com/wp-content/uploads/2021/07/unnamed-2-4.png" alt="A circular loop outlining the 6 common phases of the Software Development Cycle" style="max-width:70%;height:auto;"/>
+    <p><em>Source: <a href="https://k21academy.com/amazon-web-services/aws-devops/aws-certified-devops-professional-day-3-q-a-review/">K21Academy</a></em></p>
+</div>
 
 ## SDLC Phases
 
