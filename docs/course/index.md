@@ -17,7 +17,28 @@ nav_order: 1
     </thead>
     <tbody>
         <tr>
-            <td rowspan="4" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(187, 219, 254, 0.5); border: 1px solid lightgray;">Git</td>
+            <td rowspan="5" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(187, 219, 254, 0.5); border: 1px solid lightgray;">Introduction to<br> SDLC and <br> DevSecOps</td>
+            <td style="border: 1px solid lightgray;">Chapter 1: Introduction to SDLC</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 2: Version Control</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 3: Introduction to DevOps</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 4: Introduction to CI/CD</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 5: Introduction to DevSecOps</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td rowspan="5" style="vertical-align: middle; text-align: center; font-weight: bold; background-color:rgba(190, 188, 252, 0.5); border: 1px solid lightgray;">Git</td>
             <td style="border: 1px solid lightgray;">Chapter 1: Version Control</td>
             <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
@@ -34,37 +55,68 @@ nav_order: 1
             <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>
-            <td rowspan="6" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(190, 188, 252, 0.5); border: 1px solid lightgray;">DevOps</td>
-            <td style="border: 1px solid lightgray;">Chapter 1: Intro to DevOps</td>
+            <td style="border: 1px solid lightgray;">Chapter 5: Advanced Git Techniques</td>
             <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid lightgray;">Chapter 2: Intro to CI/CD</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 3: Containerization</td>
-            <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 4: Webhooks</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 5: Automated Tests</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 6: Deployment</td>
-            <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
-        </tr>
-        <tr>
-            <td rowspan="2" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(195, 125, 248, 0.5); border: 1px solid lightgray;">DevSecOps</td>
+            <td rowspan="6" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(243, 224, 247, 1); border: 1px solid lightgray;">DevSecOps <br> Fundamentals</td>
             <td style="border: 1px solid lightgray;">Chapter 1: DevSecOps</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid lightgray;">Chapter 2: Security Checks in CI/CD</td>
+            <td style="border: 1px solid lightgray;">Chapter 2: CI/CD Fundamentals</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 3: Automated Tests</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 4: Deployment</td>
             <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 5: Webhooks</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 6: Containerization</td>
+            <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
+        </tr>
+         <tr>
+            <td rowspan="3" style="vertical-align: middle; text-align: center; font-weight: bold; background-color:rgba(224, 194, 239, 1); border: 1px solid lightgray;">Cybersecurity</td>
+            <td style="border: 1px solid lightgray;">Chapter 1: Intro to Cybersecurity</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 2: Security Risks and Vulnerabilities in the SDLC</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+         <tr>
+            <td style="border: 1px solid lightgray;">Chapter 3: Security Checks in CI/CD</td>
+            <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(200, 165, 228, 1); border: 1px solid lightgray;">Cloud</td>
+            <td style="border: 1px solid lightgray;">Chapter 1: Intro to Cloud</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 2: Cloud in DevSecOps</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 3: Cloud Tools and Platforms</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(177, 155, 224, 1); border: 1px solid lightgray;">DevSecOps in <br> Industry</td>
+            <td style="border: 1px solid lightgray;">Chapter 1: Use of DevSecOps in Industry</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid lightgray;">Chapter 2: Common DevSecOps Industry Roles</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
     </tbody>
 </table>
