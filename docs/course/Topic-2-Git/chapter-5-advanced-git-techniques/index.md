@@ -4,6 +4,8 @@ layout: custom
 parent: Topic 2 - Git
 has_toc: false
 nav_order: 5
+topic: topic2
+chapter: chapter5
 ---
 
 # Chapter 5 - Advanced Git Techniques
@@ -174,6 +176,11 @@ git push origin v1.0.0
 Advanced Git knowledge is highly valued in DevSecOps, open-source, and enterprise environments. Whether you're a junior developer or aspiring DevSecOps engineer, understanding these concepts will save you time, prevent mistakes, and help you collaborate like a pro.
 
 ---
+
+{% include quiz.html
+  id="topic2-chapter5"
+  data=site.data.quizzes.topic2.chapter5
+%}
 
 ### References
 <details>

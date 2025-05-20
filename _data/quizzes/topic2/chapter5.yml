@@ -1,0 +1,43 @@
+questions:
+    - prompt: "Which Git command lets you temporarily save your work and switch branches?"
+      options:
+        - "git cherry-pick"
+        - "git save"
+        - "git stash"
+        - "git reset"
+      correct_index: 2
+      explanation: "<code>git stash</code> stores your changes temporarily so you can work on something else."
+
+    - prompt: "Which Git hook would you use to run a linter before committing?"
+      options:
+        - "pre-commit"
+        - "post-merge"
+        - "pre-push"
+        - "commit-msg"
+      correct_index: 0
+      explanation: "<code>pre-commit</code> runs before a commit is finalized and is commonly used for linting and checks."
+
+    - prompt: "True or False: Forking a repository is the same as cloning it."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "Forking creates a copy under your own GitHub account, while cloning makes a local copy of a repo."
+
+    - prompt: "What type of Git tag includes metadata like author and message?"
+      options:
+        - Lightweight tag
+        - Remote tag
+        - Annotated tag
+        - Branch tag
+      correct_index: 2
+      explanation: "Annotated tags include metadata and are better suited for release tagging."
+
+    - prompt: "What is the purpose of <code>git bisect</code>?"
+      options:
+        - Rewriting commit history
+        - Running linters before pushing code
+        - Creating tags for stable releases
+        - Finding the commit that introduced a bug
+      correct_index: 3
+      explanation: "<code>git bisect</code> helps you find the commit that introduced a bug using binary search."
