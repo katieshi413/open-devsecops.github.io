@@ -1,13 +1,13 @@
 ---
 title: Chapter 4 - Deployment
 layout: custom
-parent: Topic 3 - CI/CD Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
 has_children: true
-nav_order: 5
+nav_order: 4
 ---
 
-# Introduction to Deployment
+# Chapter 4 - Introduction to Deployment
 Transitioning from the exploration of DevOps and CI/CD, we now turn our attention to the critical phase of deployment. Deployment is where coding efforts from developers merge, and attempt to integrate into the existing software. With so many people making changes to the same product, there are bound to be inconsistencies and issues when pushing code. That is where deployment best practices within CI/CD come in. 
 
 > **Problem Space**

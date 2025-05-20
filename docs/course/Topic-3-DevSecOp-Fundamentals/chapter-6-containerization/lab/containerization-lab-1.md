@@ -1,8 +1,8 @@
 ---
 layout: custom
 title: Lab 1. Containerizing a React Application
-grand_parent: Topic 3 - CI/CD Fundamentals
-parent: Chapter 5 - Containerization
+grand_parent: Topic 3 - DevSecOps Fundamentals
+parent: Chapter 6 - Containerization
 nav_order: 2
 ---
 # Lab 1 - Containerizing a React Application

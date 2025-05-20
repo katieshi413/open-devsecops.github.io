@@ -1,13 +1,13 @@
 ---
-title: Chapter 1 - CI/CD Fundamentals
+title: Chapter 2 - CI/CD Fundamentals
 layout: custom
-parent: Topic 3 - CI/CD Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_children: false
 has_toc: false
 nav_order: 2
 ---
 
-# CI/CD Fundamentals
+# Chapter 2 - CI/CD Fundamentals
 <p>CI/CD, short for <strong>Continuous Integration and Continuous Delivery</strong>, is a part of the DevOps process. “It is a collection of principles and practices designed to help development teams ensure the reliable delivery of frequent code changes.”</p>
 
 <div style="text-align: center;">

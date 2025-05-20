@@ -1,7 +1,7 @@
 ---
 title: Chapter 1 - DevSecOps
 layout: custom
-parent: Topic 4 - DevSecOps Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
 nav_order: 1
 ---

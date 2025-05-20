@@ -1,13 +1,13 @@
 ---
-title: Chapter 2 - Webhooks
+title: Chapter 5 - Webhooks
 layout: custom
-parent: Topic 3 - CI/CD Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_toc: false
-nav_order: 3
+nav_order: 5
 ---
 
-## Utilizing Web Hooks for Continuous Integration
-### What is a Web Hook?
+# Chapter 5 - Utilizing Web Hooks for Continuous Integration
+## What is a Web Hook?
 When deploying code, you want to make sure it is automatically running through several relevant tests without you triggering them every single time. A webhook is like a notification for your CI/CD tests, that you have done something with your code. To set up a webhook, you first need to define rules that it follows:
 
 1. **Choose Trigger Events:** During the webhook setup process in GitHub, you specify which events will trigger the webhook. This could be a variety of actions, such as:

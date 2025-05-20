@@ -1,13 +1,13 @@
 ---
-title: Chapter 5 - Containerization
+title: Chapter 6 - Containerization
 layout: custom
-parent: Topic 3 - CI/CD Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_children: true
 has_toc: false
 nav_order: 6
 ---
 
-## Definition of Containerization
+# Chapter 6 - Definition of Containerization
 
 **Containerization in cloud computing is a method of packaging, distributing, and running applications using containers. A *container* is a:**
 - Standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably in different computing environments

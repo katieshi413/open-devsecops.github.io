@@ -1,13 +1,13 @@
 ---
-title: Chapter 2 - Automated Tests
+title: Chapter 3 - Automated Tests
 layout: custom
-parent: Topic 3 - CI/CD Fundamentals
+parent: Topic 3 - DevSecOps Fundamentals
 has_children: false
 has_toc: false
-nav_order: 4
+nav_order: 3
 ---
 
-# Automated Testing in CI/CD
+# Chapter 3 - Automated Testing in CI/CD
 ## Importance of Automation in Testing
 
 🧐 Imagine you are developing rapidly evolving software. As your product becomes more complex, ensuring that new features work correctly without breaking existing functionalities becomes challenging.

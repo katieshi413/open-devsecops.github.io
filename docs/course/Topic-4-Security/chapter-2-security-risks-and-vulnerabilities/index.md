@@ -6,7 +6,8 @@ has_toc: false
 nav_order: 2
 ---
 
-# Understanding Software Vulnerabilities in the SDLC
+# Chapter 2 - Security Risks and Vulnerabilities in the SDLC
+## Understanding Software Vulnerabilities in the SDLC
 
 To understand how to protect software by integrating security into every step of the SDLC, it is vital to first understand what makes software vulnerable.
 

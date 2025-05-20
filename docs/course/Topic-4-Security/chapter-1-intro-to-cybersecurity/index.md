@@ -3,10 +3,10 @@ title: Chapter 1 - Intro to Cybersecurity
 layout: custom
 parent: Topic 4 - Cybersecurity
 has_toc: false
-nav_order: 2
+nav_order: 1
 ---
 
-# Cybersecurity Fundamentals
+# Chapter 1 - Cybersecurity Fundamentals
 
 In today’s world, software is constantly exposed to threats that can cause:
 

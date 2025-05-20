@@ -3,7 +3,7 @@ title: Topic 5 - Cloud
 layout: custom
 has_children: true
 has_toc: false
-nav_order: 6
+nav_order: 7
 ---
 # Topic 5 – Cloud in DevSecOps
 

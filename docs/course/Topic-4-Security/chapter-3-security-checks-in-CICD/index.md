@@ -1,13 +1,13 @@
 ---
-title: Chapter 2 - Security Checks in CI/CD
+title: Chapter 3 - Security Checks in CI/CD
 layout: custom
-parent: Topic 4 - DevSecOps Fundamentals
+parent: Topic 4 - Cybersecurity
 has_children: true
 has_toc: false
-nav_order: 2
+nav_order: 3
 ---
 
-# Chapter 2 - Security Checks in CD/CD
+# Chapter 3 - Security Checks in CD/CD
 
 ## The Importance of Security Checks in Each Stage of The Pipeline
 

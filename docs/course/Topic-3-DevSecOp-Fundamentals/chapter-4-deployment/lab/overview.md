@@ -1,7 +1,7 @@
 ---
 title: Labs Overview
 layout: custom
-grand_parent: Topic 3 - CI/CD Fundamentals
+grand_parent: Topic 3 - DevSecOps Fundamentals
 parent: Chapter 4 - Deployment
 nav_order: 1
 ---
