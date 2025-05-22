@@ -136,3 +136,8 @@ As you continue to learn DevSecOps, always think in terms of **automation**, **i
 %}
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Chapter 6 Overview</a>
+  <a href="../chapter-2-industry-roles/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

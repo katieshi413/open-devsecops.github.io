@@ -1,0 +1,20 @@
+{% assign nav = site.data.navigation %}
+{% assign current = nil %}
+{% assign index = 0 %}
+
+{% for item in nav %}
+  {% if page.url == item.url %}
+    {% assign current = item %}
+    {% assign index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+<div style="margin-top: 2rem;">
+  {% if nav[index-1] %}
+    <a class="btn btn-outline-primary" href="{{ nav[index-1].url | relative_url }}">← {{ nav[index-1].title }}</a>
+  {% endif %}
+
+  {% if nav[index+1] %}
+    <a class="btn btn-outline-primary" style="float: right;" href="{{ nav[index+1].url | relative_url }}">{{ nav[index+1].title }} →</a>
+  {% endif %}
+</div>

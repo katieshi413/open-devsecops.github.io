@@ -127,3 +127,8 @@ Deployment strategies are crucial for managing the transition of code from devel
       <b>5.</b> Tremel, Etienne. “Six Strategies for Application Deployment.” <i>The New Stack</i>, 25 Mar. 2021, <a href="https://thenewstack.io/deployment-strategies/" target="_blank">https://thenewstack.io/deployment-strategies/</a>.<br>
       <b>6.</b> Using Blue-Green Deployment to Reduce Downtime | <i>Cloud Foundry Docs</i>, <a href="https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html" target="_blank">https://docs.cloudfoundry.org/devguide/deploy-apps/blue-green.html</a>. Accessed 12 Apr. 2024.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./lab/overview" style="text-decoration: none;">Labs Overview ➡️</a>
+</div>

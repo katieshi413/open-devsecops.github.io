@@ -267,3 +267,8 @@ We need to create a new quality gate that includes conditions on `Overall Code`,
       - Select the Jenkins credentials you just generated in `Server authentication token`
 
 6. Click `Save` to save the configuration.
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Previous</a>
+  <a href="../../../course/Topic-1-Software-Dev-and-DevSecOps/" style="text-decoration: none;">Topic 1 ➡️</a>
+</div>

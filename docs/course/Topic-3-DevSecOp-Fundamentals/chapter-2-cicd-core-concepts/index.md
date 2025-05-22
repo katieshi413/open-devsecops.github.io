@@ -133,3 +133,8 @@ chapter: chapter2
     <b>5.</b> Morg, Brad. “How to Design a Modern CI/CD Pipeline.” <i>YouTube</i>, 17 Oct. 2023, <a href="https://www.youtube.com/watch?v=KnSBNd3b0qI" target="_blank">www.youtube.com/watch?v=KnSBNd3b0qI</a>.<br>
     <b>6.</b> Morg, Brad. “How to Design a Deployment Pipeline (GitOps).” <i>YouTube</i>, 30 Oct. 2023, <a href="https://www.youtube.com/watch?v=pJ9f7w4AxtU" target="_blank">www.youtube.com/watch?v=pJ9f7w4AxtU</a>.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-devsecops/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

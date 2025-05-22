@@ -211,3 +211,8 @@ has_toc: false
 
 - Continuous evaluation and update of the curriculum are necessary to keep pace with the rapidly evolving tech landscape.
 - Gathering feedback from both students and industry professionals post-implementation can guide future improvements in the curriculum.
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="./user-research" style="text-decoration: none;">⬅️ User Research</a>
+  <a href="../../../" style="text-decoration: none;">Home 🏠</a>
+</div>

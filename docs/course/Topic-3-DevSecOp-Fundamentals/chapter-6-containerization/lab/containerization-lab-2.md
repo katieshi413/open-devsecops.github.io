@@ -120,3 +120,8 @@ After pulling the image, run it locally to see the application your classmate de
 
 {: .warning}
 Don't forget to deactivate your VPN connection after you have completed the lab exercise!
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="./containerization-lab-1" style="text-decoration: none;">⬅️ Lab 1</a>
+  <a href="../../../Topic-4-Security/" style="text-decoration: none;">Topic 4 ➡️</a>
+</div>

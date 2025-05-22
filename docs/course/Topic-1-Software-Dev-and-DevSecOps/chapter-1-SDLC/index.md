@@ -57,3 +57,9 @@ Continuously update and support the software to address issues and improvements.
 | **Iterative** | Builds software in small parts, allowing feedback and revisions after each iteration. | Useful when early versions are expected to evolve based on user feedback. |
 | **Agile** | A flexible, iterative approach that emphasizes collaboration, customer feedback, and frequent updates. | Best for dynamic, fast-paced projects with evolving requirements. |
 | **Scrum** | A subset of Agile, focusing on time-boxed iterations called sprints and daily stand-up meetings. | Great for product-based development with frequent releases and tight deadlines. |
+
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Topic 1 Overview</a>
+  <a href="../chapter-2-intro-to-devOps/" style="text-decoration: none;">Chapter 2 ➡️</a>
+</div>

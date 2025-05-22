@@ -119,3 +119,8 @@ Cloud computing is the backbone of modern DevSecOps. It allows teams to innovate
 - [Azure Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/)  
 - [NIST SP 800-145](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf)  
 - [IBM – What is Cloud Computing](https://www.ibm.com/think/topics/cloud-computing)
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Chapter 5 Overview</a>
+  <a href="../chapter-2-cloud-in-devsecops/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

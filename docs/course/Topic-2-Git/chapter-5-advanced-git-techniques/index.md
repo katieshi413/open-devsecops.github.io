@@ -187,3 +187,8 @@ Advanced Git knowledge is highly valued in DevSecOps, open-source, and enterpris
   <summary>Expand</summary>
   <b>1.</b> “Advanced Git Tutorials.” <i>Atlassian Git Tutorials</i>, <a href="https://www.atlassian.com/git/tutorials/advanced-overview" target="_blank">atlassian.com/git/tutorials/advanced-overview</a>. Accessed 14 May 2025.
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-4-git-best-practices/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../../Topic-3-DevSecOp-Fundamentals/" style="text-decoration: none;">Topic 3 ➡️</a>
+</div>

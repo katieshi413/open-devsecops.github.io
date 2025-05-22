@@ -96,3 +96,8 @@ By using branches, you can manage the development of new features, fixes, and up
     <b>4.</b> “3.1 Git Branching - Branches in a Nutshell.” <i>Git</i>, <a href="https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell" target="_blank">git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell</a>. Accessed 15 Apr. 2024.<br>
     <b>5.</b> “Git & Github Tutorial for Beginners #8 - Branches.” <i>YouTube</i>, YouTube, 14 June 2017, <a href="https://www.youtube.com/watch?v=QV0kVNvkMxc" target="_blank">www.youtube.com/watch?v=QV0kVNvkMxc</a>.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-version-control" style="text-decoration: none;">⬅️ Chapter 1</a>
+  <a href="../chapter-3-Intermediate-Concepts/" style="text-decoration: none;">Chapter 3 ➡️</a>
+</div>

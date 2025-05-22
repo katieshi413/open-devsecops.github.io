@@ -69,3 +69,8 @@ Protect your systems by understanding and addressing these cybersecurity fundame
 %}
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Chapter 4 Overview</a>
+  <a href="../chapter-2-security-risks-and-vulnerabilities/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

@@ -15,3 +15,8 @@ nav_order: 3
 | Chapter 2: Introduction to DevOps | - Define  DevOps <br> |
 | Chapter 3: Introduction to CI/CD | - Establish effective documentation habits<br>- Discuss the importance of READMEs and wikis<br>- Explore best practices for inline code commenting |  
 | Chapter 4: Securing SDLC with DevSecOps | - Define DevSecOps<br> |
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../../lab-setup-guide/topic-3-devsecops-lab/aws/" style="text-decoration: none;">⬅️ Previous</a>
+  <a href="./chapter-1-SDLC" style="text-decoration: none;">Chapter 1 ➡️</a>
+</div>

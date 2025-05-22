@@ -33,3 +33,8 @@ Before you begin this lab, ensure you have the following tools installed and rea
 Below are the skills and knowledge expected to successfully complete the lab exercises:
 - Basic Understanding of CI/CD Concepts
 - Basic Docker Fundamentals: Building, Pushing, Pulling, and Running an image.
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../../chapter-4-deployment/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./deployment-lab-1" style="text-decoration: none;">Lab 1 ➡️</a>
+</div>

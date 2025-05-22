@@ -122,3 +122,8 @@ Mastering cloud-native DevSecOps practices ensures that security is not a bottle
 - [Microsoft Azure Security Documentation](https://learn.microsoft.com/en-us/azure/security/)  
 - [Google DevSecOps Toolkit](https://cloud.google.com/blog/products/networking/introducing-the-devsecops-toolkit)  
 - [HashiCorp Terraform Recommended Practices](https://developer.hashicorp.com/terraform/cloud-docs/recommended-practices)
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-Intro-to-Cloud/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-3-cloud-tools-and-platforms/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

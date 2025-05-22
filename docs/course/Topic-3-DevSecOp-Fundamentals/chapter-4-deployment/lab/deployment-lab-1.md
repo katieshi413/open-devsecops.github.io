@@ -216,3 +216,8 @@ Replace `{public_ip}` with the public IP address, and `{host_port}` with the spe
 
 {: .warning}
 Don't forget to deactivate your VPN connection after you have completed the lab exercise!
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="./overview" style="text-decoration: none;">⬅️ Labs Overview</a>
+  <a href="../../chapter-5-webhooks/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

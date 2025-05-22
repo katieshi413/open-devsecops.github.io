@@ -235,3 +235,8 @@ In many companies, Development and Operations teams work independently, leading 
     <b>3.</b> Charboneau, Tyler. “What Is Devops?” <i>Orange Matter</i>, 9 Aug. 2023, <a href="http://orangematter.solarwinds.com/2022/03/21/what-is-devops/" target="_blank">orangematter.solarwinds.com/2022/03/21/what-is-devops/</a>.<br>
     <b>4.</b> “Six Pillars of Devsecops Series.” <i>CSA</i>, <a href="http://cloudsecurityalliance.org/blog/2021/09/09/six-pillars-of-devsecops-series" target="_blank">cloudsecurityalliance.org/blog/2021/09/09/six-pillars-of-devsecops-series</a>. Accessed 20 Feb. 2024.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-SDLC/" style="text-decoration: none;">⬅️ Chapter 1</a>
+  <a href="../chapter-3-intro-to-cicd/" style="text-decoration: none;">Chapter 3 ➡️</a>
+</div>

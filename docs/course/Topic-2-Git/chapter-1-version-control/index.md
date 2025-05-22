@@ -46,3 +46,8 @@ A common tool for version control is GitHub. GitHub allows you acts as a central
     <b>2.</b> “1.1 Getting Started - about Version Control.” <i>Git</i>, <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control" target="_blank">git-scm.com/book/en/v2/Getting-Started-About-Version-Control</a>. Accessed 15 Apr. 2024.<br>
     <b>3.</b> “What Is Version Control?” <i>GitLab</i>, GitLab, 4 Apr. 2023, <a href="https://about.gitlab.com/topics/version-control/" target="_blank">about.gitlab.com/topics/version-control/</a>.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Topic 2 Overview</a>
+  <a href="../chapter-2-understanding-git/" style="text-decoration: none;">Chapter 2 ➡️</a>
+</div>

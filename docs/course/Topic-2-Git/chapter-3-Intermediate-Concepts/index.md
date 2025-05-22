@@ -60,3 +60,8 @@ By mastering these concepts, developers can collaborate more effectively and mai
     <b>7.</b> “About Pull Requests.” <i>GitHub Docs</i>, <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" target="_blank">docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests</a>. Accessed 15 Apr. 2024.<br>
     <b>8.</b> “About Git Rebase.” <i>GitHub Docs</i>, <a href="https://docs.github.com/articles/about-git-rebase" target="_blank">docs.github.com/articles/about-git-rebase</a>. Accessed 15 Apr. 2024.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-2-understanding-git/" style="text-decoration: none;">⬅️ Chapter 2</a>
+  <a href="./lab/git-lab-1" style="text-decoration: none;">Lab 1 ➡️</a>
+</div>

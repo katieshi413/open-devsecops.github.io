@@ -94,7 +94,7 @@ nav_order: 1
         </tr>
          <tr>
             <td style="border: 1px solid lightgray;">Chapter 3: Security Checks in CI/CD</td>
-            <td style="text-align: center; background-color: #c8e6c9; color: #388e3c; font-weight: bold; border: 1px solid lightgray;">Yes</td>
+            <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>
             <td rowspan="3" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(200, 165, 228, 1); border: 1px solid lightgray;">Cloud</td>
@@ -138,3 +138,8 @@ Our [Literature Review](../others/research/literature-review) provides a compreh
 Incorporating DevSecOps and CI/CD practices into academic curricula prepares students to meet the demands of modern software engineering, making them valuable assets to the industry from the outset. 
 
 For a detailed understanding of the current market needs that our curriculum addresses, refer to our [Market Research](../others/research/market-research).
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../../" style="text-decoration: none;">⬅️ Home</a>
+  <a href="../lab-setup-guide/" style="text-decoration: none;">Lab Infrastructure Setup Guide ➡️</a>
+</div>

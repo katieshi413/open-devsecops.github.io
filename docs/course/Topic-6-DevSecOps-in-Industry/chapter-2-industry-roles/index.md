@@ -147,3 +147,8 @@ In larger organizations, additional roles often support DevSecOps efforts:
 %}
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-use-of-devsecops-in-industry/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../../../other/" style="text-decoration: none;">Other Documents ➡️</a>
+</div>

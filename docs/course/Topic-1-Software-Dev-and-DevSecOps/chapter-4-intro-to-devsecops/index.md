@@ -102,3 +102,7 @@ To **shift right** is to monitor user behavior, usage, performance, and security
 
 **4.** “Shift left vs. shift right” *Red Hat*, [https://www.redhat.com/en/topics/devops/shift-left-vs-shift-right](https://www.redhat.com/en/topics/devops/shift-left-vs-shift-right). Accessed 8 Apr. 2024.
 
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-3-intro-to-cicd/" style="text-decoration: none;">⬅️ Chapter 3</a>
+  <a href="../../Topic-2-Git/" style="text-decoration: none;">Topic 2 ➡️</a>
+</div>
