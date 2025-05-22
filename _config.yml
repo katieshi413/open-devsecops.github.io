@@ -5,7 +5,9 @@ theme: just-the-docs
 logo: "/assets/images/2.0logobig.png"
 favicon_ico: "/assets/images/2.0logobig.png"
 
-url: https://open-devsecops.github.io
+# url: https://open-devsecops.github.io
+url: "https://katieshi413.github.io"
+baseurl: "/open-devsecops.github.io"
 search_enabled: false
 
 aux_links:
