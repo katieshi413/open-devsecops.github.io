@@ -1,0 +1,44 @@
+questions:
+    - prompt: "What is the main purpose of integrating security checks in each stage of the CI/CD pipeline?"
+      options:
+       - "To slow down development"
+       - "To ensure only DevOps engineers manage security"
+       - "To automate deployments without review"
+       - "To embed security early and ensure vulnerabilities are caught throughout development"
+      correct_index: 3
+      explanation: "The key goal is to proactively embed security checks early in the development process and throughout the lifecycle."
+
+    - prompt: "Fill in the blank: The _________ phase includes threat modeling to identify potential vulnerabilities before coding begins."
+      options:
+        - "Testing"
+        - "Planning"
+        - "Release"
+        - "Build"
+      correct_index: 1
+      explanation: "The Planning phase includes threat modeling to predict and mitigate future security risks."
+
+    - prompt: "Which of the following best describes DAST?"
+      options:
+        - "Analyzes code before it is compiled"
+        - "Checks application behavior while running"
+        - "Ensures business logic is documented"
+        - "Analyzes test scripts in the CI environment"
+      correct_index: 1
+      explanation: "DAST tests the running application to identify vulnerabilities during runtime."
+
+    - prompt: "True or False: The CI/CD pipeline should only have security checks during the testing stage."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "Security checks should be embedded into every stage of the pipeline, not just testing."
+
+    - prompt: "Which of the following is NOT a benefit of combining SAST and DAST?"
+      options:
+        - "Improves detection coverage of security vulnerabilities"
+        - "Provides both code-level and runtime insights"
+        - "Replaces the need for security experts"
+        - "Strengthens application security across the SDLC"
+      correct_index: 2
+      explanation: "While SAST and DAST improve coverage, they do not eliminate the need for security professionals."
+      
