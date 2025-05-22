@@ -8,7 +8,7 @@ topic: topic5
 chapter: chapter3
 ---
 
-# DevSecOps Cloud Tools and Platforms
+# Chapter 3 - DevSecOps Cloud Tools and Platforms
 
 DevSecOps isn’t just a set of principles—it’s enabled by a powerful ecosystem of tools and platforms that make cloud-native development, security, and operations possible. In this chapter, we’ll explore essential cloud tools across categories like automation, CI/CD, security scanning, monitoring, and compliance, tailored to a DevSecOps pipeline.
 

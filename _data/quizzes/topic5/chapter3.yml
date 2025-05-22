@@ -1,0 +1,43 @@
+questions:
+    - prompt: "Why are tools essential for DevSecOps in the cloud?"
+      options:
+        - "They eliminate the need for developers"
+        - "They simplify only post-deployment monitoring"
+        - "They enable scalable, automated security across the SDLC"
+        - "They are required only for compliance audits"
+      correct_index: 2
+      explanation: "Tools automate testing, policy enforcement, and monitoring, making DevSecOps scalable and effective."
+
+    - prompt: "Which tool would you use for managing secrets in a multi-cloud environment?"
+      options:
+        - "Trivy"
+        - "OWASP ZAP"
+        - "GitHub Actions"
+        - "HashiCorp Vault"
+      correct_index: 3
+      explanation: "HashiCorp Vault is designed for secure secrets management across multi-cloud setups."
+
+    - prompt: "True or False: Hardcoding secrets in your source code is a recommended best practice."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "Hardcoding secrets is a major security risk. Secrets should be injected securely at runtime."
+
+    - prompt: "What is the purpose of tools like OPA or Gatekeeper?"
+      options:
+        - "Secrets management"
+        - "Code compilation"
+        - "Policy enforcement in Kubernetes"
+        - "Logging configuration"
+      correct_index: 2
+      explanation: "OPA and Gatekeeper are used to define and enforce security policies in Kubernetes environments."
+
+    - prompt: "Which of the following tools provides runtime threat detection for containers?"
+      options:
+        - "Falco"
+        - "SonarQube"
+        - "Kube-bench"
+        - "Dependabot"
+      correct_index: 0
+      explanation: "Falco provides runtime threat detection specifically for containers."

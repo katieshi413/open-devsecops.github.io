@@ -1,0 +1,41 @@
+questions:
+    - prompt: "What is one key issue that arises when development and operations teams work in isolation?"
+      options:
+        - "Decreased development speed"
+        - "Better coordination between teams"
+        - "Conflicting goals and communication gaps"
+        - "More secure deployment pipelines"
+      correct_index: 2
+      explanation: "Isolated Dev and Ops teams often face communication gaps and misaligned objectives, leading to inefficiencies."
+
+    - prompt: "True or False: Manual testing and deployment processes often result in slower release cycles and delayed feedback."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "Manual processes slow down software delivery, making it harder to respond quickly to feedback."
+
+    - prompt: "Which of the following best explains the 'But it works on my machine' syndrome?"
+      options:
+        - "A feature passes QA but fails in production due to network issues"
+        - "Code behaves inconsistently across environments due to configuration mismatches"
+        - "A user reports a bug that developers can’t reproduce"
+        - "Developers forget to merge the correct branch"
+      correct_index: 1
+      explanation: "Environment inconsistencies lead to unexpected behavior that doesn't match the developer’s local setup."
+
+    - prompt: "Fill in the blank: Manual infrastructure scaling increases the risk of __________ due to human error and slow responsiveness."
+      options:
+        - "Bugs"
+        - "Data corruption"
+        - "Deployment automation"
+        - "System instability"
+      correct_index: 3
+      explanation: "Manual processes are more prone to mistakes and can't respond quickly to load changes, causing instability."
+
+    - prompt: "True or False: DevOps is only about automation tools and does not affect team culture or communication."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "DevOps promotes collaboration and culture change, not just tool adoption."

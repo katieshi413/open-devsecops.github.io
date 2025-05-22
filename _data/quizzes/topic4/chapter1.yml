@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What does the CIA Triad represent in cybersecurity?"
+      options:
+        - "Compliance, Identity, Access"
+        - "Confidentiality, Integrity, Availability"
+        - "Cybersecurity, Infrastructure, Authentication"
+        - "Confidentiality, Information, Authentication"
+      correct_index: 1
+      explanation: "The CIA Triad stands for <b>Confidentiality, Integrity, and Availability<b/>, all key principles in cybersecurity."
+
+    - prompt: "What is a vulnerability in the context of cybersecurity?"
+      options:
+        - "A malicious code used in an attack"
+        - "A person attempting to hack a system"
+        - "A flaw or weakness in a system that can be exploited"
+        - "The risk of unauthorized access to data"
+      correct_index: 2
+      explanation: "A vulnerability is a flaw or weakness in software, hardware, or systems that can be exploited."
+
+    - prompt: "True or False: A 'risk' is determined by the probability and severity of a cybersecurity incident."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "Risk = Probability of Occurrence x Severity. It's a measure of potential impact."
+
+    - prompt: "Which of the following is an example of an exploit being used?"
+      options:
+        - "A patch being applied to software"
+        - "A hacker finds a password in a config file and uses it to access a server"
+        - "A backup system running hourly"
+        - "Antivirus software updating signatures"
+      correct_index: 1
+      explanation: "Using a found password to gain unauthorized access is an example of exploiting a vulnerability."
+
+    - prompt: "Fill in the blank: The ________ is the malicious code or action used in a cyberattack."
+      options:
+        - "Payload"
+        - "Threat actor"
+        - "Vulnerability"
+        - "Exploit"
+      correct_index: 0
+      explanation: "The payload is the part of the attack that causes harm, like malicious code."

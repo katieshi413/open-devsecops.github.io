@@ -2,11 +2,17 @@ title: open-devsecops
 description: 'From Classroom to Industry: Bridging the DevSecOps Knowledge Gap with Open, Practical Learning.'
 theme: just-the-docs
 
-logo: "/assets/images/opendevsecops-transparent.png"
-favicon_ico: "/assets/images/opendevsecops-favicon.ico"
+logo: "/assets/images/2.0logobig.png"
+favicon_ico: "/assets/images/2.0logobig.png"
 
-url: https://open-devsecops.github.io
+# url: https://open-devsecops.github.io
+url: "https://katieshi413.github.io"
+baseurl: "/open-devsecops.github.io"
 search_enabled: false
+
+include:
+   - assets/js/quiz.js
+   - assets/js/quiz-reset.js
 
 aux_links:
   Github: https://github.com/open-devsecops

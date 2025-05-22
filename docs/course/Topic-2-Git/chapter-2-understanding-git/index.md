@@ -9,7 +9,7 @@ topic: topic2
 chapter: chapter2
 ---
 
-# Git Fundamentals 
+# Chapter 2 - Git Fundamentals 
 ## What is a repository?
 
 {: .definition }

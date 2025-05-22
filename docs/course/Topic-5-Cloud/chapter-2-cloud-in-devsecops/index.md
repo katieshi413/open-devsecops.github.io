@@ -8,7 +8,7 @@ topic: topic5
 chapter: chapter2
 ---
 
-# Cloud-Native DevSecOps
+# Chapter 2 - Cloud-Native DevSecOps
 
 DevSecOps is about integrating security into every part of the software development lifecycle. When you move to the cloud, it transforms how you build, test, deploy, and secure applications. Cloud-native DevSecOps means adapting security practices to the flexibility, speed, and scale the cloud offers.
 

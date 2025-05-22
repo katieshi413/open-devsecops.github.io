@@ -2,12 +2,12 @@
   <!-- Button Container with Flex Layout -->
   <div style="display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem;">
     <!-- Dark Mode Toggle -->
-    <button class="btn js-toggle-dark-mode" style="font-size: 1.2rem;"></button>
+    <button class="btn js-toggle-dark-mode" style="font-size: 1.2rem;">☀️</button>
 
     <!-- Font Size Toggle -->
     <div id="font-size-control">
       <button id="toggle-font-size" class="btn js-toggle-dark-mode" style="padding-top: 0.25rem;">
-        <img src="/assets/images/font-size.svg" alt="Font Size" style="height: 30px;" />
+        <img src="{{ '/assets/images/font-size.svg' | relative_url }}" alt="font size icon" style="height: 30px;" />
       </button>
     </div>
   </div>
@@ -103,10 +103,11 @@
 
   // Toggle image and styled text
   if (isVisible) {
-    toggleButton.innerHTML = `<img src="/assets/images/font-size.svg" alt="Font Size" style="height: 30px;" />`;
+    toggleButton.innerHTML = `<img src="{{ '/assets/images/font-size.svg' | relative_url }}" alt="font size icon" style="height: 30px;" />`;
   } else {
     toggleButton.innerHTML = `<span style="font-size: 1rem;">Hide</span>`;
   }
 });
 </script>
+
 

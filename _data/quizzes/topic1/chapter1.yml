@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What is the primary purpose of the Software Development Life Cycle (SDLC)?"
+      options:
+        - "To design user interfaces for software applications"
+        - "To manage and structure software development and maintenance through distinct phases"
+        - "To write code in a specific programming language"
+        - "To automate deployment using CI/CD tools"
+      correct_index: 1
+      explanation: "The SDLC is a structured process that helps manage and guide software development and maintenance through specific phases."
+
+    - prompt: "Which of the following is NOT one of the phases in the traditional SDLC?"
+      options:
+        - "Design"
+        - "Test"
+        - "Automate"
+        - "Deploy"
+      correct_index: 2
+      explanation: "<b>Automate</b> is not a standard SDLC phase; the typical phases include Planning, Design, Implement, Test, Deploy, and Maintain."
+
+    - prompt: "True or False: The <b>Maintain</b> phase in SDLC focuses on releasing software into production."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "The <b>Deploy</b> phase handles release into production, while the <b>Maintain</b> phase involves ongoing updates and support."
+
+    - prompt: "What is a key benefit of following a structured SDLC process?"
+      options:
+        - "Faster typing speed for developers"
+        - "Reduces testing requirements"
+        - "Ensures secure and reliable software delivery"
+        - "Eliminates the need for project planning"
+      correct_index: 2
+      explanation: "One of the main benefits of SDLC is enabling faster, more secure, and reliable delivery of software through structured processes."
+
+    - prompt: "Which SDLC methodology is best suited for projects with fixed, well-defined requirements?"
+      options:
+        - "Waterfall"
+        - "Agile"
+        - "Scrum"
+        - "Iterative"
+      correct_index: 0
+      explanation: "Waterfall is ideal for projects where requirements are fixed and unlikely to change."

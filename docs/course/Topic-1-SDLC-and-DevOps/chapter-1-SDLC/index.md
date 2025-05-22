@@ -1,10 +1,12 @@
 ---
 title: Chapter 1 - Introduction to SDLC
 layout: custom
-parent: Topic 1 - Introduction to SDLC and DevSecOps
+parent: Topic 1 - SDLC and DevOps
 has_children: false
 has_toc: false
 nav_order: 1
+topic: topic1
+chapter: chapter1
 ---
 
 # Chapter 1 - Introduction to SDLC
@@ -58,6 +60,14 @@ Continuously update and support the software to address issues and improvements.
 | **Agile** | A flexible, iterative approach that emphasizes collaboration, customer feedback, and frequent updates. | Best for dynamic, fast-paced projects with evolving requirements. |
 | **Scrum** | A subset of Agile, focusing on time-boxed iterations called sprints and daily stand-up meetings. | Great for product-based development with frequent releases and tight deadlines. |
 
+---
+
+{% include quiz.html
+  id="topic1-chapter1"
+  data=site.data.quizzes.topic1.chapter1
+%}
+
+---
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../" style="text-decoration: none;">⬅️ Topic 1 Overview</a>

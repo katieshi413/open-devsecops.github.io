@@ -1,12 +1,14 @@
 ---
-title: Chapter 2 - Intro to DevOps
+title: Chapter 2 - Introduction to DevOps
 layout: custom
-parent: Topic 1 - Introduction to SDLC and DevSecOps
+parent: Topic 1 - SDLC and DevOps
 has_children: false
 has_toc: false
 nav_order: 2
+topic: topic1
+chapter: chapter2
 ---
-# Introduction to DevOps
+# Chapter 2 - Introduction to DevOps
 ## Problem Space
 
 🧐 Imagine you are writing code for a project idea you have yourself. As your project begins to grow, you hire more developers.
@@ -226,6 +228,15 @@ In many companies, Development and Operations teams work independently, leading 
 - **Automation**
 - **Collecting & Measuring Data**
 - **Continuous Feedback**
+
+---
+
+{% include quiz.html
+  id="topic1-chapter2"
+  data=site.data.quizzes.topic1.chapter2
+%}
+
+---
 
 ### References 
 <details>
