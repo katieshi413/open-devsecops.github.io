@@ -38,6 +38,8 @@ A common tool for version control is GitHub. GitHub allows you acts as a central
   data=site.data.quizzes.topic2.chapter1
 %}
 
+---
+
 
 ### References 
 <details>

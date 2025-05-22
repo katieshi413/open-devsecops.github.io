@@ -5,6 +5,8 @@ parent: Topic 1 - SDLC and DevOps
 has_children: false
 has_toc: false
 nav_order: 2
+topic: topic1
+chapter: chapter2
 ---
 # Chapter 2 - Introduction to DevOps
 ## Problem Space
@@ -226,6 +228,15 @@ In many companies, Development and Operations teams work independently, leading 
 - **Automation**
 - **Collecting & Measuring Data**
 - **Continuous Feedback**
+
+---
+
+{% include quiz.html
+  id="topic1-chapter2"
+  data=site.data.quizzes.topic1.chapter2
+%}
+
+---
 
 ### References 
 <details>
