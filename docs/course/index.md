@@ -17,24 +17,12 @@ nav_order: 1
     </thead>
     <tbody>
         <tr>
-            <td rowspan="5" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(187, 219, 254, 0.5); border: 1px solid lightgray;">Introduction to<br> SDLC and <br> DevSecOps</td>
+            <td rowspan="2" style="vertical-align: middle; text-align: center; font-weight: bold; background-color: rgba(187, 219, 254, 0.5); border: 1px solid lightgray;">Introduction to<br> SDLC and <br> DevSecOps</td>
             <td style="border: 1px solid lightgray;">Chapter 1: Introduction to SDLC</td>
             <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>
-            <td style="border: 1px solid lightgray;">Chapter 2: Version Control</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 3: Introduction to DevOps</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 4: Introduction to CI/CD</td>
-            <td style="text-align: center; border: 1px solid lightgray;"></td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid lightgray;">Chapter 5: Introduction to DevSecOps</td>
+            <td style="border: 1px solid lightgray;">Chapter 2: Introduction to DevOps</td>
             <td style="text-align: center; border: 1px solid lightgray;"></td>
         </tr>
         <tr>

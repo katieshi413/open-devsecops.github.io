@@ -1,5 +1,5 @@
 ---
-title: Topic 1 - Introduction to SDLC and DevSecOps
+title: Topic 1 - SDLC and DevOps
 layout: custom
 parent: 
 has_children: true
@@ -7,7 +7,7 @@ has_toc: false
 nav_order: 3
 ---
 
-# Topic 1 - Introduction to the SDLC and DevSecOps
+# Topic 1 - SDLC and DevOps
 
 | Chapter | Learning Objectives |
 |---------|---------------------|

@@ -1,7 +1,7 @@
 ---
 title: Chapter 1 - Introduction to SDLC
 layout: custom
-parent: Topic 1 - Introduction to SDLC and DevSecOps
+parent: Topic 1 - SDLC and DevOps
 has_children: false
 has_toc: false
 nav_order: 1

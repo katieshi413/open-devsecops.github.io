@@ -7,7 +7,7 @@ nav_order: 1
 topic: topic5
 chapter: chapter1
 ---
-# Introduction to Cloud
+# Chapter 1 - Introduction to Cloud
 
 The cloud has become the foundation upon which DevSecOps practices are built. From scalable infrastructure to rapid deployment capabilities, understanding the cloud is key to implementing secure, efficient pipelines.
 

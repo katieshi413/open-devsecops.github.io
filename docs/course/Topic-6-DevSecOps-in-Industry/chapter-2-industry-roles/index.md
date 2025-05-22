@@ -8,9 +8,9 @@ topic: topic6
 chapter: chapter2
 ---
 
-# 🔐 Common DevSecOps Roles in the Industry
+# Chapter 2 - Common DevSecOps Roles in the Industry
 
-In this section, we’ll break down the most common DevSecOps roles in today’s tech landscape. You’ll learn what each role does, their core responsibilities, and the essential skills required.
+In this section, we’ll break down the most common DevSecOps roles in today’s tech landscape. You’ll learn what each role does, their core responsibilities, and the essential skills required. 🔐
 
 ---
 

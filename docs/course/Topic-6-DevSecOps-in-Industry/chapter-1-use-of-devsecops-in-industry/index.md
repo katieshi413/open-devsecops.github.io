@@ -8,7 +8,7 @@ topic: topic6
 chapter: chapter1
 ---
 
-# Chapter 6 - DevSecOps Use Cases Across Industries
+# Chapter 1 - DevSecOps Use Cases Across Industries
 
 Now, we have laid out 6 Use Cases and Industries where the skills and information you have learned will be useful. They are as follows:
 
