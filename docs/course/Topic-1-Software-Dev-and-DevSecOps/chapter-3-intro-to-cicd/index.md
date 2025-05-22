@@ -1,10 +1,10 @@
 ---
-title: Chapter 4 - Intro to CI/CD
+title: Chapter 3 - Intro to CI/CD
 layout: custom
 parent: Topic 1 - Introduction to SDLC and DevSecOps
 has_children: false
 has_toc: false
-nav_order: 4
+nav_order: 3
 ---
 
 # Introduction to CI/CD

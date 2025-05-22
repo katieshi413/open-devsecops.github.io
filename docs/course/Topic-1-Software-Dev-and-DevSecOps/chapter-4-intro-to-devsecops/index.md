@@ -1,10 +1,10 @@
 ---
-title: Chapter 5 - Introduction to DevSecOps
+title: Chapter 4 - Introduction to DevSecOps
 layout: custom
 parent: Topic 1 - Introduction to SDLC and DevSecOps
 has_children: false
 has_toc: false
-nav_order: 5
+nav_order: 4
 ---
 
 

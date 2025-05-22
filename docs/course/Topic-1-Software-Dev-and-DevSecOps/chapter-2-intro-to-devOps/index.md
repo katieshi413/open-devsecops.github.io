@@ -1,10 +1,10 @@
 ---
-title: Chapter 3 - Intro to DevOps
+title: Chapter 2 - Intro to DevOps
 layout: custom
 parent: Topic 1 - Introduction to SDLC and DevSecOps
 has_children: false
 has_toc: false
-nav_order: 3
+nav_order: 2
 ---
 # Introduction to DevOps
 ## Problem Space
