@@ -1,14 +1,14 @@
 ---
-title: Chapter 1 - DevSecOps
+title: Chapter 4 - Introduction to DevSecOps
 layout: custom
-parent: Topic 3 - DevSecOps Fundamentals
+parent: Topic 1 - Introduction to SDLC and DevSecOps
+has_children: false
 has_toc: false
-nav_order: 1
-topic: topic3
-chapter: chapter1
+nav_order: 4
 ---
 
-# Chapter 1 - DevSecOps
+
+# Chapter 5 - Introduction to DevSecOps
 
 ## Defining DevSecOps
 - Dev = Development
@@ -89,14 +89,8 @@ To **shift right** is to monitor user behavior, usage, performance, and security
 </p>
 </details> 
 
---- 
 
-{% include quiz.html
-  id="topic3-chapter1"
-  data=site.data.quizzes.topic3.chapter1
-%}
 
----
  
 ### References
 
@@ -109,6 +103,6 @@ To **shift right** is to monitor user behavior, usage, performance, and security
 **4.** “Shift left vs. shift right” *Red Hat*, [https://www.redhat.com/en/topics/devops/shift-left-vs-shift-right](https://www.redhat.com/en/topics/devops/shift-left-vs-shift-right). Accessed 8 Apr. 2024.
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../" style="text-decoration: none;">⬅️ Chapter 3 Overview</a>
-  <a href="../chapter-2-cicd-core-concepts/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-3-intro-to-cicd/" style="text-decoration: none;">⬅️ Chapter 3</a>
+  <a href="../../Topic-2-Git/" style="text-decoration: none;">Topic 2 ➡️</a>
 </div>

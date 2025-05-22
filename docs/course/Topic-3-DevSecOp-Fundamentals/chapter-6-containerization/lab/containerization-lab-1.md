@@ -218,3 +218,8 @@ This command prints system information about the Linux kernel, which should be d
 You can explore further by listing the files in the current directory `ls` or checking the environment variables `env`.
 
 When you're done, simply type `exit` or press `Ctrl + C` to leave the container shell.
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="./overview" style="text-decoration: none;">⬅️ Labs Overview</a>
+  <a href="./containerization-lab-2" style="text-decoration: none;">Lab 2 ➡️</a>
+</div>

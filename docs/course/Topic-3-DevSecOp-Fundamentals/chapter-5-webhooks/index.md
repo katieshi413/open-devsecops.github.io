@@ -44,3 +44,8 @@ Then, once you want to make a change, the following happens:
       <b>3.</b> “What Is a Webhook? Webhooks for Beginners.” <i>YouTube</i>, YouTube, 30 Nov. 2021, <a href="https://www.youtube.com/watch?v=mrkQ5iLb4DM" target="_blank">https://www.youtube.com/watch?v=mrkQ5iLb4DM</a>.<br>
       <b>4.</b> “What Is a Webhook?” <i>Red Hat - We Make Open Source Technologies for the Enterprise</i>, <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook" target="_blank">https://www.redhat.com/en/topics/automation/what-is-a-webhook</a>. Accessed 11 Apr. 2024.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="./../chapter-4-deployment/lab/deployment-lab-1" style="text-decoration: none;">⬅️ Lab 1</a>
+  <a href="../chapter-6-containerization/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

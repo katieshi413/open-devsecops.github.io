@@ -37,4 +37,7 @@ has_toc: false
 28. "Decoding the Difference: Artifacts vs Packages in Software Development", *cloudsmith*, [https://cloudsmith.com/blog/artifacts-vs-packages-what-is-the-difference](https://cloudsmith.com/blog/artifacts-vs-packages-what-is-the-difference). Accessed 20 Feb. 2024.
 29. "Azure Container Registry between Artifactory: Exploring the Differences", *LevInfo*, [https://ievinfo.com/azure-container-registry-between-artifactory-differenc/](https://ievinfo.com/azure-container-registry-between-artifactory-differenc/). Accessed 20 Feb. 2024.
 
-
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Other Documents</a>
+  <a href="./user-research" style="text-decoration: none;">User Reserach ➡️</a>
+</div>

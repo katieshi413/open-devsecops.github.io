@@ -68,3 +68,8 @@ Continuously update and support the software to address issues and improvements.
 %}
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Topic 1 Overview</a>
+  <a href="../chapter-2-intro-to-devOps/" style="text-decoration: none;">Chapter 2 ➡️</a>
+</div>

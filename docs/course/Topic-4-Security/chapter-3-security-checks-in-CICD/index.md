@@ -2,7 +2,7 @@
 title: Chapter 3 - Security Checks in CI/CD
 layout: custom
 parent: Topic 4 - Cybersecurity
-has_children: true
+has_children: false
 has_toc: false
 nav_order: 3
 topic: topic4
@@ -167,3 +167,7 @@ There are countless variations of vulnerability scanners out there and are const
 
 **8.** "What is Fortify and How it works? An Overview and Its Use Cases" *DevOps School*, [Link](https://www.devopsschool.com/blog/what-is-fortify-and-how-it-works-an-overview-and-its-use-cases/). Accessed 9 Apr. 2024.
 
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-2-security-risks-and-vulnerabilities/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../../Topic-5-Cloud/" style="text-decoration: none;">Topic 5 ➡️</a>
+</div>

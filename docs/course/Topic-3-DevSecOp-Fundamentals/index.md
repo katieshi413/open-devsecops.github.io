@@ -17,4 +17,7 @@ nav_order: 5
 | Chapter 5: Webhooks | - Discuss the role and setup of webhooks in CI/CD automation<br>- Explore webhook triggers and their applications |  |
 | Chapter 6: Containerization | - Define containerization and its advantages in cloud computing<br>- Explore Kubernetes and microservices architectures<br>- Learn about container application consistency | **Lab 1: Containerizing a React Application**<br>- Create and run a Docker image of a React application<br>- Interact with a running Docker container<br>**Lab 2: Accessing Corporate Network and AWS ECR**<br>- Establish a VPN and use AWS IAM credentials to authenticate and push Docker images to AWS ECR |
 
-
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../Topic-2-Git/chapter-5-advanced-git-techniques/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./chapter-1-devsecops/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

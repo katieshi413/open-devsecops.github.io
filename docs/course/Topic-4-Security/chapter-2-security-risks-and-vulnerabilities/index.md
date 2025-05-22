@@ -49,3 +49,8 @@ To understand how to protect software by integrating security into every step of
   [https://www.cisa.gov/known-exploited-vulnerabilities-catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 
 ---
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-1-intro-to-cybersecurity/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-3-security-checks-in-CICD/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

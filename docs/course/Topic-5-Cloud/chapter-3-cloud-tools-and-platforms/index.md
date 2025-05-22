@@ -162,3 +162,8 @@ DevSecOps in the cloud is powered by a rich ecosystem of specialized tools. From
 - [AWS Marketplace Compliance Tools](https://aws.amazon.com/marketplace/pp/prodview-yfh7zy22jbbt2)  
 - [Azure Policy Overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview)  
 - [Google Cloud Security Command Center](https://cloud.google.com/security/products/security-command-center?hl=en)
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-2-cloud-in-devsecops/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../../Topic-6-DevSecOps-in-Industry/" style="text-decoration: none;">Topic 6 ➡️</a>
+</div>

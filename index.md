@@ -34,3 +34,9 @@ To understand the skills gap that new graduates face, refer to our [User Researc
 
 ## Contributing to the Curriculum 🤝
 Contributions are welcome! Help us keep the curriculum relevant and effective by updating content, adding new exercises, or providing feedback.
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="" style="text-decoration: none;"></a>
+  <a href="docs/course/" style="text-decoration: none;">Course Overview ➡️</a>
+</div>
+

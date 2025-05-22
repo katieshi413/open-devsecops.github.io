@@ -1,15 +1,13 @@
 ---
-title: Chapter 2 - CI/CD Fundamentals
+title: Chapter 3 - Intro to CI/CD
 layout: custom
-parent: Topic 3 - DevSecOps Fundamentals
+parent: Topic 1 - Introduction to SDLC and DevSecOps
 has_children: false
 has_toc: false
-nav_order: 2
-topic: topic3
-chapter: chapter2
+nav_order: 3
 ---
 
-# Chapter 2 - CI/CD Fundamentals
+# Introduction to CI/CD
 <p>CI/CD, short for <strong>Continuous Integration and Continuous Delivery</strong>, is a part of the DevOps process. “It is a collection of principles and practices designed to help development teams ensure the reliable delivery of frequent code changes.”</p>
 
 <div style="text-align: center;">
@@ -114,15 +112,6 @@ chapter: chapter2
   </tr>
 </table>
 
----
-
-{% include quiz.html
-  id="topic3-chapter2"
-  data=site.data.quizzes.topic3.chapter2
-%}
-
----
-
 ### References 
 <details>
   <Summary>Expand</Summary>
@@ -135,6 +124,6 @@ chapter: chapter2
 </details>
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-1-devsecops/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-2-intro-to-devOps/" style="text-decoration: none;">⬅️ Chapter 2</a>
+  <a href="../chapter-4-intro-to-devsecops/" style="text-decoration: none;">Chapter 4 ➡️</a>
 </div>

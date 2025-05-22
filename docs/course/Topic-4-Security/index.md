@@ -14,4 +14,7 @@ nav_order: 6
 | Chapter 2: Vulnerabilities and Risk | - Understand common vulnerabilities in the SDLC<br> ||
 | Chapter 3: Security Checks in CI/CD | - Understand important of security checks in each stage of the pipeline<br>- Discuss SAST vs DAST and their pros/cons<br>- Learn about vulnerability scanning and prominent tools in industry today | **Lab: Securing a Vulnerable Application** <br>- Fix security vulnerabilities flagged by security checkpoints within a CI/CD pipeline. |
 
-
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../Topic-3-DevSecOp-Fundamentals/chapter-6-containerization/lab/containerization-lab-2" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./chapter-1-intro-to-cybersecurity/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

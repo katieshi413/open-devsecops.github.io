@@ -106,7 +106,7 @@ Automated testing is a cornerstone of modern software development. By integratin
 <b> 3.</b> “Automated Testing: The Cornerstone of CI/CD.” Written by Ferdinando Santacroce. <i>Semaphore</i>, 16 Mar. 2022, <a href="https://semaphoreci.com/blog/automated-testing-cicd" target="_blank">https://semaphoreci.com/blog/automated-testing-cicd</a>.<br>
 </details>
 
-
-
-
-
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-2-cicd-core-concepts/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-4-deployment/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

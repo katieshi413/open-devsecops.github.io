@@ -35,3 +35,8 @@ Below are the skills and knowledge expected to successfully complete the lab exe
 - Basic command-line operations: You are comfortable navigating and executing commands in a terminal.
 - Basic Git operations: cloning, forking, committing, pushing.
 - Basic React knowledge: You understand how to run a React application locally
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./containerization-lab-1" style="text-decoration: none;">Lab 1 ➡️</a>
+</div>

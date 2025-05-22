@@ -38,3 +38,8 @@ Proper documentation is key to the longevity and maintainability of software. Yo
     <b>2.</b> Maddy. “How to Write the Perfect Documentation for Your GitHub Project.” <i>DEV Community</i>, 11 July 2023, <a href="https://dev.to/maddy/how-to-write-the-perfect-documentation-for-your-github-project-4k38" target="_blank">dev.to/maddy/how-to-write-the-perfect-documentation-for-your-github-project-4k38</a> <br>
     <b>3.</b> “The Engineer’s Guide to Writing Meaningful Code Comments.” <i>Stepsize CollabGPT: AI Collaboration for Software Teams. Daily Standups and More.</i>, <a href="https://stepsize.com/blog/the-engineers-guide-to-writing-code-comments" target="_blank">stepsize.com/blog/the-engineers-guide-to-writing-code-comments</a>. Accessed 15 Apr. 2024.<br>
 </details>
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-3-Intermediate-Concepts/lab/git-lab-1" style="text-decoration: none;">⬅️ Lab 1</a>
+  <a href="../chapter-5-advanced-git-techniques/" style="text-decoration: none;">Next Chapter ➡️</a>
+</div>

@@ -191,3 +191,9 @@ BlueOcean improves the user experience of Jenkins, providing a more visual and i
 4. Click on Install to begin installing the selected plugins.
 
 ![blueocean](./assets/blueocean.png)
+
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../" style="text-decoration: none;">⬅️ Previous</a>
+  <a href="../../topic-3-devsecops-lab/" style="text-decoration: none;">Next ➡️</a>
+</div>
+

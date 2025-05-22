@@ -1,8 +1,8 @@
 ---
 title: Labs Overview
 layout: custom
-grand_parent: Topic 3 - DevSecOps
-parent: Chapter 2 - Security Checks in CI/CD
+grand_parent: Topic 4 - Cybersecurity
+parent: Chapter 3 - Security Checks in CI/CD
 nav_order: 1
 ---
 

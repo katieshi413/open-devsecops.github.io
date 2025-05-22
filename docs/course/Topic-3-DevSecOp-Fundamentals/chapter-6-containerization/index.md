@@ -99,4 +99,7 @@ So, while an "artifact" is a product of the software development process, "Artif
 
 **5.** "Azure Container Registry between Artifactory: Exploring the Differences", *LevInfo*, [https://ievinfo.com/azure-container-registry-between-artifactory-differenc/](https://ievinfo.com/azure-container-registry-between-artifactory-differenc/). Accessed 20 Feb. 2024.
 
-
+<div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+  <a href="../chapter-5-webhooks/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="./lab/overview" style="text-decoration: none;">Labs Overview ➡️</a>
+</div>
