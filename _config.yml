@@ -3,7 +3,7 @@ description: 'From Classroom to Industry: Bridging the DevSecOps Knowledge Gap w
 theme: just-the-docs
 
 logo: "/assets/images/2.0logobig.png"
-favicon_ico: "/assets/images/opendevsecops-favicon.ico"
+favicon_ico: "/assets/images/2.0logobig.png"
 
 url: https://open-devsecops.github.io
 search_enabled: false
