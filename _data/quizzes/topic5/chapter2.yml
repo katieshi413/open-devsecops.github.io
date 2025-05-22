@@ -1,0 +1,41 @@
+questions:
+    - prompt: "True or False: Cloud-native DevSecOps emphasizes integrating security after the application has been deployed."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: False. Cloud-native DevSecOps integrates security throughout the development process, not afterward.
+
+    - prompt: "Which of the following is <b>not</b> a benefit of cloud-native DevSecOps?"
+      options:
+        - "Faster feedback loops"
+        - "Manual server patching"
+        - "Automated security checks"
+        - "Easier compliance management"
+      correct_index: 1
+      explanation: "Cloud-native DevSecOps discourages manual server patching in favor of immutable infrastructure."
+
+    - prompt: "Fill in the blank: ________ allows infrastructure to be defined and managed using code."
+      options:
+        - "Immutable Infrastructure"
+        - "Continuous Deployment (CD)"
+        - "Infrastructure as Code (IaC)"
+        - "Serverless Architecture"
+      correct_index: 2
+      explanation: "IaC refers to defining infrastructure setup and management using code."
+
+    - prompt: "True or False: Microservices and serverless architectures reduce the number of endpoints, making applications easier to secure."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "These architectures increase the number of endpoints, making API security more important."
+
+    - prompt: "What does the Shared Responsibility Model emphasize in cloud security?"
+      options:
+        - "Users are responsible for everything"
+        - "Cloud providers handle all security"
+        - "Only compliance officers manage security"
+        - "Responsibilities are split between cloud users and providers"
+      correct_index: 3
+      explanation: Security is a shared responsibility between the cloud provider and the customer.

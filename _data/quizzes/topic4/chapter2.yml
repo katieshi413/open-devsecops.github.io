@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What is the main risk when users can access data or systems they shouldn’t be allowed to?"
+      options:
+        - "Improper Access Control"
+        - "Misconfiguration"
+        - "Cross-Site Scripting (XSS)"
+        - "Cryptographic Risks"
+      correct_index: 0
+      explanation: "Improper Access Control occurs when users can access unauthorized systems or data."
+
+    - prompt: "Which mitigation strategy is most effective against injection attacks?"
+      options:
+        - "Role Based Access Controls"
+        - "Require MFA"
+        - "Encrypt database backups"
+        - "Sanitize user input"
+      correct_index: 3
+      explanation: "Sanitizing user input helps prevent injection attacks by ensuring that only valid data is processed."
+
+    - prompt: "What kind of attack involves injecting malicious SQL queries into a system?"
+      options:
+        - "Cross-Site Scripting (XSS)"
+        - "SQL Injection"
+        - "Improper Authentication"
+        - "Logging Failure"
+      correct_index: 1
+      explanation: "SQL Injection involves inserting malicious SQL queries to manipulate or access a database."
+
+    - prompt: "True or False: Output encoding helps prevent SQL injections by restricting unauthorized queries."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "False. Output encoding helps prevent XSS attacks. SQL Injection should be mitigated using parameterized queries."
+
+    - prompt: "Fill in the blank: __________ is a technique to limit what actions users can perform based on their role in an organization."
+      options:
+        - "Access logs"
+        - "Parameterized queries"
+        - "Role Based Access Control"
+        - "Prepared statements"
+      correct_index: 2
+      explanation: "Role Based Access Control ensures that users only access information and systems needed for their role."

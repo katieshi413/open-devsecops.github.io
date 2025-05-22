@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What is one major DevSecOps benefit for financial institutions?"
+      options:
+        - "Slower software releases for compliance checks"
+        - "Manual auditing of infrastructure"
+        - "Avoiding use of cloud environments"
+        - "Automated compliance reporting and early misconfiguration detection"
+      correct_index: 3
+      explanation: "DevSecOps enables automated compliance reporting and early detection of misconfigured services in finance."
+
+    - prompt: "How does DevSecOps benefit Tech & SaaS companies like GitHub and Netflix?"
+      options:
+        - "It reduces their need to monitor deployments"
+        - "It automates inline security scans during pull requests"
+        - "It allows skipping code reviews"
+        - "It replaces CI/CD pipelines with manual deployment"
+      correct_index: 1
+      explanation: "DevSecOps allows automated security scanning on pull requests, supporting fast and secure deployments."
+
+    - prompt: "True or False: DevSecOps helps healthtech apps encrypt data and monitor access patterns."
+      options:
+        - "True"
+        - "False"
+      correct_index: 0
+      explanation: "True. DevSecOps practices in healthcare include automatic encryption and anomaly detection to secure patient data."
+
+    - prompt: "What challenge does DevSecOps address in the retail industry?"
+      options:
+        - "Overstaffing during peak seasons"
+        - "Manual software patching"
+        - "Preventing data breaches during high-traffic events"
+        - "Avoiding cloud usage"
+      correct_index: 2
+      explanation: "Retailers use DevSecOps to proactively scan for risks and prevent breaches, especially during peak traffic."
+
+    - prompt: "What is a major DevSecOps benefit in pharmaceutical and R&D industries?"
+      options:
+        - "Securing data pipelines and enforcing role-based secrets management"
+        - "Rapid drug manufacturing"
+        - "Bypassing compliance to speed up innovation"
+        - "Avoiding use of encrypted storage"
+      correct_index: 0
+      explanation: "DevSecOps helps secure sensitive IP and research data through secrets management and encryption."

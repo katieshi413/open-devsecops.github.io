@@ -1,0 +1,43 @@
+questions:
+    - prompt: "What is the primary responsibility of a DevSecOps Engineer?"
+      options:
+        - "Manage customer support and incident tickets"
+        - "Handle only traditional IT operations"
+        - "Embed security into CI/CD workflows and help write secure code"
+        - "Develop mobile applications for enterprise use"
+      correct_index: 2
+      explanation: "DevSecOps Engineers focus on embedding security throughout the SDLC, especially in CI/CD pipelines."
+
+    - prompt: "Which skill is most relevant for a Security Automation Engineer?"
+      options:
+        - "Designing user interfaces"
+        - "Writing marketing content"
+        - "Automating access control and integrating with SIEM systems"
+        - "Building sales dashboards"
+      correct_index: 2
+      explanation: "Security Automation Engineers automate tasks like access control and integrate security tools with SIEMs."
+
+    - prompt: "True or False: Application Security Engineers are primarily focused on securing infrastructure, not code."
+      options:
+        - "True"
+        - "False"
+      correct_index: 1
+      explanation: "AppSec Engineers focus on the security of application code, performing code reviews and vulnerability scans."
+
+    - prompt: "Which of the following is <b>NOT</b> typically a responsibility of an Application Security Engineer?"
+      options:
+        - "Conducting threat modeling"
+        - "Performing SAST and DAST"
+        - "Educating developers on secure coding"
+        - "Managing cloud IAM policies"
+      correct_index: 3
+      explanation: "Managing IAM policies is a responsibility of Cloud Security Engineers, not AppSec Engineers."
+
+    - prompt: "What tool might a Cloud Security Engineer use to monitor for misconfigurations?"
+      options:
+        - "GitHub Copilot"
+        - "AWS GuardDuty"
+        - "Google Docs"
+        - "Wireshark"
+      correct_index: 1
+      explanation: "AWS GuardDuty is used to detect threats and misconfigurations in AWS cloud environments."
