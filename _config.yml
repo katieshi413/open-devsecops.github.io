@@ -10,6 +10,10 @@ url: "https://katieshi413.github.io"
 baseurl: "/open-devsecops.github.io"
 search_enabled: false
 
+include:
+   - assets/js/quiz.js
+   - assets/js/quiz-reset.js
+
 aux_links:
   Github: https://github.com/open-devsecops
   Contribute: https://github.com/open-devsecops/open-devsecops.github.io
