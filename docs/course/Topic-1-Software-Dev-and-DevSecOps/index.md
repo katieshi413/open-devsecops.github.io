@@ -13,5 +13,3 @@ nav_order: 3
 |---------|---------------------|
 | Chapter 1: Introduction to SDLC | - Define Software Development Lifecycle<br>- Understand the basics of SDLC methodologies<br>- Explore the benefits of using different methodologies<br> |
 | Chapter 2: Introduction to DevOps | - Define  DevOps <br> |
-| Chapter 3: Introduction to CI/CD | - Establish effective documentation habits<br>- Discuss the importance of READMEs and wikis<br>- Explore best practices for inline code commenting |  
-| Chapter 4: Securing SDLC with DevSecOps | - Define DevSecOps<br> |
