@@ -14,5 +14,5 @@ nav_order: 8
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../Topic-5-Cloud/chapter-3-cloud-tools-and-platforms/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="./chapter-1-use-of-devsecops-in-industry/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="./chapter-1-use-of-devsecops-in-industry/" style="text-decoration: none;">Chapter 1 ➡️</a>
 </div>

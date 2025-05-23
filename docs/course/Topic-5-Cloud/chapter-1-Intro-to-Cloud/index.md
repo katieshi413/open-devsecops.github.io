@@ -122,5 +122,5 @@ Cloud computing is the backbone of modern DevSecOps. It allows teams to innovate
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../" style="text-decoration: none;">⬅️ Chapter 5 Overview</a>
-  <a href="../chapter-2-cloud-in-devsecops/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-2-cloud-in-devsecops/" style="text-decoration: none;">Chapter 2 ➡️</a>
 </div>

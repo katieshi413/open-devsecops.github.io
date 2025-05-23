@@ -135,6 +135,6 @@ chapter: chapter2
 </details>
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-1-devsecops/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-1-devsecops/" style="text-decoration: none;">⬅️ Chapter 1</a>
+  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">Chapter 3 ➡️</a>
 </div>

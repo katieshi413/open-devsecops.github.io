@@ -249,5 +249,5 @@ In many companies, Development and Operations teams work independently, leading 
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../chapter-1-SDLC/" style="text-decoration: none;">⬅️ Chapter 1</a>
-  <a href="../chapter-3-intro-to-cicd/" style="text-decoration: none;">Chapter 3 ➡️</a>
+  <a href="../../Topic-2-Git/" style="text-decoration: none;">Topic 2 ➡️</a>
 </div>

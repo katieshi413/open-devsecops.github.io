@@ -168,6 +168,6 @@ There are countless variations of vulnerability scanners out there and are const
 **8.** "What is Fortify and How it works? An Overview and Its Use Cases" *DevOps School*, [Link](https://www.devopsschool.com/blog/what-is-fortify-and-how-it-works-an-overview-and-its-use-cases/). Accessed 9 Apr. 2024.
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-2-security-risks-and-vulnerabilities/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-2-security-risks-and-vulnerabilities/" style="text-decoration: none;">⬅️ Chapter 2</a>
   <a href="../../Topic-5-Cloud/" style="text-decoration: none;">Topic 5 ➡️</a>
 </div>

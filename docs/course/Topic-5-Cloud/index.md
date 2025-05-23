@@ -15,5 +15,5 @@ nav_order: 7
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../Topic-4-Security/chapter-3-security-checks-in-CICD/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="./chapter-1-Intro-to-Cloud/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="./chapter-1-Intro-to-Cloud/" style="text-decoration: none;">Chapter 1 ➡️</a>
 </div>

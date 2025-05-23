@@ -17,6 +17,6 @@ nav_order: 4
 | Chapter 5: Git Advanced Concepts | - Learn advanced Git commands to manage commit history, troubleshoot issues, and automate workflows<br>- Understand how to collaborate effectively using forks, submodules, and selective commit strategies<br>- Explore tools like git stash, git reflog, and git bisect to safely experiment and recover work|  |
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../Topic-1-Software-Dev-and-DevSecOps/chapter-4-intro-to-devsecops/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../Topic-1-SDLC-and-DevOps/chapter-2-intro-to-devOps/" style="text-decoration: none;">⬅️ Previous Chapter</a>
   <a href="./chapter-1-version-control" style="text-decoration: none;">Chapter 1 ➡️</a>
 </div>

@@ -270,5 +270,5 @@ We need to create a new quality gate that includes conditions on `Overall Code`,
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../" style="text-decoration: none;">⬅️ Previous</a>
-  <a href="../../../course/Topic-1-Software-Dev-and-DevSecOps/" style="text-decoration: none;">Topic 1 ➡️</a>
+  <a href="../../../course/Topic-1-SDLC-and-DevOps/" style="text-decoration: none;">Topic 1 ➡️</a>
 </div>

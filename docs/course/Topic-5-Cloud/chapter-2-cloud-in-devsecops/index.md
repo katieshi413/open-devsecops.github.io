@@ -124,6 +124,6 @@ Mastering cloud-native DevSecOps practices ensures that security is not a bottle
 - [HashiCorp Terraform Recommended Practices](https://developer.hashicorp.com/terraform/cloud-docs/recommended-practices)
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-1-Intro-to-Cloud/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="../chapter-3-cloud-tools-and-platforms/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-1-Intro-to-Cloud/" style="text-decoration: none;">⬅️ Chapter 1</a>
+  <a href="../chapter-3-cloud-tools-and-platforms/" style="text-decoration: none;">Chapter 3 ➡️</a>
 </div>

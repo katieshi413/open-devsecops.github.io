@@ -110,5 +110,5 @@ To **shift right** is to monitor user behavior, usage, performance, and security
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../" style="text-decoration: none;">⬅️ Chapter 3 Overview</a>
-  <a href="../chapter-2-cicd-core-concepts/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-2-cicd-core-concepts/" style="text-decoration: none;">  Chapter 2 ➡️</a>
 </div>

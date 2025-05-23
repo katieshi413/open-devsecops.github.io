@@ -219,5 +219,5 @@ Don't forget to deactivate your VPN connection after you have completed the lab 
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./overview" style="text-decoration: none;">⬅️ Labs Overview</a>
-  <a href="../../chapter-5-webhooks/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../../chapter-5-webhooks/" style="text-decoration: none;">Chapter 5 ➡️</a>
 </div>

@@ -51,6 +51,6 @@ To understand how to protect software by integrating security into every step of
 ---
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-1-intro-to-cybersecurity/" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="../chapter-3-security-checks-in-CICD/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-1-intro-to-cybersecurity/" style="text-decoration: none;">⬅️ Chapter 1</a>
+  <a href="../chapter-3-security-checks-in-CICD/" style="text-decoration: none;">Chapter 3 ➡️</a>
 </div>

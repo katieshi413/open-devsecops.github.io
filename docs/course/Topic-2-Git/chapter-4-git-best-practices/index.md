@@ -41,5 +41,5 @@ Proper documentation is key to the longevity and maintainability of software. Yo
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="../chapter-3-Intermediate-Concepts/lab/git-lab-1" style="text-decoration: none;">⬅️ Lab 1</a>
-  <a href="../chapter-5-advanced-git-techniques/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-5-advanced-git-techniques/" style="text-decoration: none;">Chapter 5 ➡️</a>
 </div>

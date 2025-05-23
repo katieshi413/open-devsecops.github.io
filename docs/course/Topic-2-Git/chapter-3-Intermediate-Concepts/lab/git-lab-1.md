@@ -62,6 +62,6 @@ The objective of this lab is to familiarize yourself with version control concep
         - **NOTE**: Typically in a professional setting, this is a step that the owner of a project will take after reviewing the changes you made. But for this exercise, you will do both steps.
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../" style="text-decoration: none;">⬅️ Previous Chapter</a>
-  <a href="../../chapter-4-git-best-practices/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../" style="text-decoration: none;">⬅️ Chapter 3</a>
+  <a href="../../chapter-4-git-best-practices/" style="text-decoration: none;">Chapter 4 ➡️</a>
 </div>

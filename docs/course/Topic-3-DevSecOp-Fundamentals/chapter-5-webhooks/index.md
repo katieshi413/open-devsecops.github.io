@@ -47,5 +47,5 @@ Then, once you want to make a change, the following happens:
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="./../chapter-4-deployment/lab/deployment-lab-1" style="text-decoration: none;">⬅️ Lab 1</a>
-  <a href="../chapter-6-containerization/" style="text-decoration: none;">Next Chapter ➡️</a>
+  <a href="../chapter-6-containerization/" style="text-decoration: none;">Chapter 6 ➡️</a>
 </div>

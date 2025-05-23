@@ -129,6 +129,6 @@ Deployment strategies are crucial for managing the transition of code from devel
 </details>
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
-  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">⬅️ Previous Chapter</a>
+  <a href="../chapter-3-automated-testing/" style="text-decoration: none;">⬅️ Chapter 3</a>
   <a href="./lab/overview" style="text-decoration: none;">Labs Overview ➡️</a>
 </div>
