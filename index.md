@@ -33,7 +33,14 @@ To understand the skills gap that new graduates face, refer to our [User Researc
 - **Transparency and Trust**: Encouraging scrutiny and feedback for quality content.
 
 ## Contributing to the Curriculum 🤝
-Contributions are welcome! Help us keep the curriculum relevant and effective by updating content, adding new exercises, or providing feedback.
+This project will transition to an open-source model effective May 30, 2025. Source code and contribution guidelines will be available on our Github page. Contributions are welcome! Help us keep the curriculum relevant and effective by updating content, adding new exercises, or providing feedback. This project is a continuation of 2024 Capstone Project “Open DevSecOps.” Version 1 can be found [here.](https://open-devsecops.github.io/)
+
+### Connect with the Creators 🔗
+- [Katie Shi](https://www.linkedin.com/in/katie-shi-ab4973185/)
+- [Emily Choi](https://www.linkedin.com/in/emily-choii/)
+- [Jocelyn Margarones](https://www.linkedin.com/in/jocelyn-margarones-666770236/)
+- [Mor Vered](https://www.linkedin.com/in/mor-vered-470a36257/)
+- [Mira Nair](https://www.linkedin.com/in/miranair/)
 
 <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
   <a href="" style="text-decoration: none;"></a>

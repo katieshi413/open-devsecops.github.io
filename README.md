@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href=“katieshi413.github.io/open-devsecops.github.io/”> 
-    <img src="assets/images/opendevsecops-transparent.png" alt="open DevSecOps triangle logo" width="200" height="200">
+    <img src="assets/images/2.0logobig.png" alt="Open DevSecOps v2 purple bar logo" width="200" height="200">
   </a>
   <h1 align="center">Open DevSecOps v2</h1>
 </div>
